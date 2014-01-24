@@ -1,0 +1,127 @@
+@import "settings";
+@import "../bower_components/foundation/scss/foundation";
+
+header {
+	display: none;
+
+	@media #{$large-up} { 
+		display: block;
+		background: #fff;
+		text-align: center;
+		border-bottom: 3px solid $secondary-color;
+		text-transform: uppercase;
+	}
+}
+
+
+.main .row {
+	background :white;
+}
+
+[data-magellan-expedition] {
+	background: rgba(246, 246, 246,0.5);
+
+}
+
+.sub-nav-container, .sub-nav-container.fixed {
+
+	border-bottom: 3px solid $secondary-color;
+
+	@media #{$large-up} { 
+		position: fixed;
+		min-width: 100px;
+		max-width: 100px;
+		right: 0;
+		top: 35% !important;
+		left: auto;
+		float: right;
+		border: none;
+	}
+
+	@media #{$xlarge-up} {
+		right: 13%;
+	}
+
+	@media #{$xxlarge-up} {
+		right: 23%;
+	}
+
+}
+
+.sub-nav-container h1 {
+	font-size: rem-calc(22);
+	@media #{$large-up} { 
+		display: none;
+	}
+}
+
+.sub-nav dd {
+	a {color: $body-font-color;}
+
+	@media #{$large-up} { 
+		float: none;
+		display: block;
+	}
+}
+
+.sub-nav dd {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0.25em;
+	padding-top: 0.3em;
+}
+
+.sub-nav dd:before{
+
+	@media #{$large-up} { 
+	  content: "";
+	  position: absolute;
+	  	top: 55%;
+		width: 7px;
+		height: 7px;
+		background: lighten($body-font-color, 60);
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+	}
+}
+
+.sub-nav dd.active:before{
+
+	@media #{$large-up} { 
+	  content: "";
+	  position: absolute;
+	  	top: 45%;
+		width: 12px;
+		height: 12px;
+		background: $secondary-color;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+	}
+}
+
+.sub-nav dd a {
+	padding-left: 1em;
+	padding-top: 0.1em;
+	text-transform: lowercase;
+}
+
+.sub-nav dd.active a {
+	@media #{$large-up} { 
+
+	}
+}
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover{
+	background: none;
+}
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+	background: none;
+	color: $body-font-color;
+	font-weight: bold;
+
+
+}
