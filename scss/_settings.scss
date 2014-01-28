@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,600,800);
 // 
 // FOUNDATION SETTINGS
 //
@@ -35,9 +36,11 @@
 // $total-columns: 12;
 
 // We use these to control various global styles
+
  $body-bg: #f6f6f6;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+ $body-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
