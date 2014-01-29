@@ -2,6 +2,9 @@
 
 [data-magellan-expedition] {
 	padding: 0 10px;
+	height: 0;
+
+
 }
 .sub-nav {
 	padding: 0;
@@ -21,19 +24,11 @@
 		min-width: 100px;
 		max-width: 100px;
 		right: 0;
-		top: 35% !important;
+		top: 45% !important;
 		left: auto;
 		float: right;
 		border: none;
 		display: block;
-	}
-
-	@media #{$xlarge-up} {
-		right: 10%;
-	}
-
-	@media #{$xxlarge-up} {
-		right: 15%;
 	}
 
 }

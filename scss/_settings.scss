@@ -31,16 +31,16 @@
 
 // $include-html-grid-classes: $include-html-classes;
 
-// $row-width: rem-calc(1000);
+ $row-width: 1200px;
 // $column-gutter: rem-calc(30);
 // $total-columns: 12;
 
 // We use these to control various global styles
 
- $body-bg: #f6f6f6;
+ $body-bg: white;
 // $body-font-color: #222;
 
- $body-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+ $body-font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -95,6 +95,8 @@
 
 // $xxlarge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})";
 // $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (max-width:#{upper-bound($xxlarge-range)})";
+
+
 
 // Legacy
 // $small: $medium-up;
@@ -484,7 +486,7 @@
 
 // Off-canvas
 
-// $tabbar-bg: #333;
+ $tabbar-bg: #fff;
 // $tabbar-height: rem-calc(45);
 // $tabbar-line-height: $tabbar-height;
 // $tabbar-color: #FFF;
@@ -502,7 +504,7 @@
 
 // Off Canvas Menu Variables
 // $off-canvas-width: 250px;
-// $off-canvas-bg: #333;
+ $off-canvas-bg: #fff;
 
 // Off Canvas Menu List Variables
 // $off-canvas-label-padding: 0.3rem rem-calc(15);
@@ -934,7 +936,7 @@
 
 // Background color for the top bar
  $topbar-bg-color: #FFF;
-// $topbar-bg: $topbar-bg-color;
+ $topbar-bg: $topbar-bg-color;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -947,7 +949,7 @@
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #FFF;
+ $topbar-dropdown-bg: #FFF;
 // $topbar-dropdown-link-color: #000;
 // $topbar-dropdown-link-bg: #fff;
 // $topbar-dropdown-toggle-size: 5px;
@@ -961,7 +963,7 @@
  $topbar-link-weight: normal;
  //$topbar-link-font-size: rem-calc(13);
  $topbar-link-hover-lightness: 10%; // Darken by 10%
-// $topbar-link-bg-hover: #272727  ;
+ $topbar-link-bg-hover: #ccc  ;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: darken($primary-color, 5%);
 // $topbar-link-font-family: $body-font-family;
@@ -972,13 +974,13 @@
 // $topbar-dropdown-label-text-transform: uppercase;
 // $topbar-dropdown-label-font-weight: bold;
 // $topbar-dropdown-label-font-size: rem-calc(10);
-// $topbar-dropdown-label-bg: #333;
+ $topbar-dropdown-label-bg: #fff;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
+ $topbar-menu-link-color: #000;
 // $topbar-menu-icon-color: #fff;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;

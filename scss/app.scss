@@ -4,20 +4,65 @@
 
 @import "subnav";
 
-header {
-	/*display: none;*/
+header.mobile-header{
 
-	@media #{$large-up} { 
+}
+
+
+.full-header {
+	/*display: none;*/
+ 
 		display: block;
 		background: #fff;
 		text-align: center;
 		border-bottom: 3px solid $secondary-color;
 		text-transform: uppercase;
-	}
+}
+
+/* Mobile Nav Stuff */
+
+.nav-container{
+	border-bottom: 3px solid $secondary-color;
 }
 
 /* Section Stuff */
 
+
+/* About */
+
+.about-hero {
+	position: relative;
+	z-index: 999;
+	background-image: url('../images/group.jpg');
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	padding-top: 660px;
+	background-color: white;
+
+}
+
+.tagline-container {
+	background-color: $primary-color;
+	color: white;
+	font-style: italic;
+	position: relative;
+	z-index: 999;
+
+
+	p{
+		text-align: center;
+		font-size: rem-calc(32);
+		background-color: $primary-color;
+		margin-top: -60px;
+		padding: 1rem;
+	}
+
+
+
+}
+.main .tagline-container .row{
+	background: none;
+}
 section h1 {
 	text-align: center;
 	text-transform: uppercase;

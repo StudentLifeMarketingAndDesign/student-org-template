@@ -30,11 +30,11 @@ html, body {
   font-size: 100%; }
 
 body {
-  background: #f6f6f6;
+  background: white;
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -119,7 +119,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 1200px;
   *zoom: 1; }
 .row:before, .row:after {
   content: " ";
@@ -1108,7 +1108,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem; }
 .accordion dd > a:hover {
   background: #e3e3e3; }
@@ -1562,7 +1562,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2665,7 +2665,7 @@ label.error {
 
 .label {
   font-weight: normal;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3037,7 +3037,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
 .pricing-table .price {
   background-color: #f6f6f6;
   padding: 0.9375rem 1.25rem;
@@ -3045,7 +3045,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
 .pricing-table .description {
   background-color: white;
   padding: 0.9375rem;
@@ -3174,7 +3174,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
 .side-nav li {
   margin: 0 0 0.4375rem 0;
   font-size: 0.875rem; }
@@ -3184,7 +3184,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child {
   color: #4d4d4d;
   font-weight: normal;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
 .side-nav li.divider {
   border-top: 1px solid;
   height: 0;
@@ -3293,7 +3293,7 @@ ul.pagination li {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999; }
@@ -3508,7 +3508,7 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem; }
 .tabs dd > a:hover {
   background: #e1e1e1; }
@@ -3746,7 +3746,7 @@ meta.foundation-mq-topbar {
   line-height: 33px;
   padding: 0;
   padding-right: 25px;
-  color: white;
+  color: black;
   position: relative; }
 .top-bar .toggle-topbar.menu-icon a::after {
   content: "";
@@ -3780,7 +3780,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  background: white;
   font-size: 16px;
   margin: 0; }
 .top-bar-section .divider, .top-bar-section [role="separator"] {
@@ -3794,10 +3794,10 @@ meta.foundation-mq-topbar {
   color: black;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
-  background: #333333; }
+  background: white; }
 .top-bar-section ul li > a.button {
   background: #8dcdda;
   font-size: 0.8125rem;
@@ -3818,7 +3818,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a.button.alert:hover {
   background: #d42b0f; }
 .top-bar-section ul li:hover > a {
-  background: #272727;
+  background: #cccccc;
   color: black; }
 .top-bar-section ul li.active > a {
   background: #8dcdda;
@@ -3905,7 +3905,7 @@ meta.foundation-mq-topbar {
     background: white; }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+    max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 0; }
 
@@ -3923,14 +3923,14 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li .js-generated {
     display: none; }
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
+    background: #cccccc;
     color: black; }
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
     background: white; }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #272727; }
+    background: #cccccc; }
   .top-bar-section .has-dropdown > a {
     padding-right: 35px !important; }
   .top-bar-section .has-dropdown > a:after {
@@ -3969,7 +3969,7 @@ meta.foundation-mq-topbar {
     background: #333333; }
   .top-bar-section .dropdown li label {
     white-space: nowrap;
-    background: #333333; }
+    background: white; }
   .top-bar-section .dropdown li .dropdown {
     left: 100%;
     top: 0; }
@@ -3996,7 +3996,7 @@ meta.foundation-mq-topbar {
     left: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #cccccc;
     color: black; }
   .no-js .top-bar-section ul li:active > a {
     background: #8dcdda;
@@ -4036,7 +4036,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -4304,7 +4304,7 @@ blockquote, blockquote p {
 
 nav.tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: white;
   color: white;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -4322,8 +4322,8 @@ section.left-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #1a1a1a;
-  box-shadow: 1px 0 0 #4e4e4e;
+  border-right: solid 1px gray;
+  box-shadow: 1px 0 0 white;
   left: 0; }
 
 section.right-small {
@@ -4331,8 +4331,8 @@ section.right-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #4e4e4e;
-  box-shadow: -1px 0 0 #1a1a1a;
+  border-left: solid 1px white;
+  box-shadow: -1px 0 0 gray;
   right: 0; }
 
 section.tab-bar-section {
@@ -4361,7 +4361,7 @@ a.menu-icon {
   display: block;
   line-height: 2.0625rem;
   padding: 0;
-  color: white;
+  color: black;
   position: relative; }
 a.menu-icon span {
   position: absolute;
@@ -4384,7 +4384,7 @@ a.menu-icon:hover span {
   height: 100%;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: white;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(-100%, 0, 0);
@@ -4403,7 +4403,7 @@ a.menu-icon:hover span {
   height: 100%;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: white;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(100%, 0, 0);
@@ -4430,7 +4430,7 @@ ul.off-canvas-list li a {
   display: block;
   padding: 0.66667rem;
   color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid #262626; }
+  border-bottom: 1px solid #bfbfbf; }
 
 .move-right > .inner-wrap {
   -webkit-transform: translate3d(250px, 0, 0);
@@ -4748,7 +4748,8 @@ th.hide-for-touch {
 
 /* Subnav Stuff */
 [data-magellan-expedition] {
-  padding: 0 10px; }
+  padding: 0 10px;
+  height: 0; }
 
 .sub-nav {
   padding: 0; }
@@ -4767,17 +4768,11 @@ th.hide-for-touch {
     min-width: 100px;
     max-width: 100px;
     right: 0;
-    top: 35% !important;
+    top: 45% !important;
     left: auto;
     float: right;
     border: none;
     display: block; } }
-@media only screen and (min-width: 90.063em) {
-  .sub-nav-container, .sub-nav-container.fixed {
-    right: 10%; } }
-@media only screen and (min-width: 120.063em) {
-  .sub-nav-container, .sub-nav-container.fixed {
-    right: 15%; } }
 
 .sub-nav-container h1 {
   font-size: 1.375rem;
@@ -4841,17 +4836,45 @@ th.hide-for-touch {
   font-weight: bold;
   padding: 0.1875rem 1rem; }
 
-header {
-  /*display: none;*/ }
-@media only screen and (min-width: 64.063em) {
-  header {
-    display: block;
-    background: #fff;
-    text-align: center;
-    border-bottom: 3px solid #ffce2f;
-    text-transform: uppercase; } }
+.full-header {
+  /*display: none;*/
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-bottom: 3px solid #ffce2f;
+  text-transform: uppercase; }
+
+/* Mobile Nav Stuff */
+.nav-container {
+  border-bottom: 3px solid #ffce2f; }
 
 /* Section Stuff */
+/* About */
+.about-hero {
+  position: relative;
+  z-index: 999;
+  background-image: url("../images/group.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  padding-top: 660px;
+  background-color: white; }
+
+.tagline-container {
+  background-color: #8dcdda;
+  color: white;
+  font-style: italic;
+  position: relative;
+  z-index: 999; }
+.tagline-container p {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #8dcdda;
+  margin-top: -60px;
+  padding: 1rem; }
+
+.main .tagline-container .row {
+  background: none; }
+
 section h1 {
   text-align: center;
   text-transform: uppercase;
