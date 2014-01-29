@@ -2,21 +2,22 @@
 
 [data-magellan-expedition] {
 	padding: 0 10px;
-	height: 0;
+
+	@media #{$large-up} { 
+		height: 0;
+	}
+
+	.sub-nav .active{
+		line-height: 1.6;
+	}	
+}
 
 
-}
-.sub-nav {
-	padding: 0;
-}
-[data-magellan-expedition] .sub-nav .active{
-	line-height: 1.6;
-}
 .sub-nav-container, .sub-nav-container.fixed {
 
 	border-bottom: 3px solid $secondary-color;
 	background: white;
-	display: none;
+	z-index: 1000;
 
 	@media #{$large-up} { 
 		background: none;
@@ -29,6 +30,7 @@
 		float: right;
 		border: none;
 		display: block;
+		z-index: 999;
 	}
 
 }
@@ -41,12 +43,14 @@
 	}
 }
 
-.sub-nav dd {
-	a {color: $body-font-color;}
+
+.sub-nav {
+	padding: 0;
+	text-align: center;
 
 	@media #{$large-up} { 
-		float: none;
-		display: block;
+		text-align: left;
+		background: white;
 	}
 }
 
@@ -57,15 +61,33 @@
 	list-style: none;
 	padding: 0;
 	margin: 0 0 0.25em;
-	padding-top: 0.3em;
+	padding-top: 0.7em;
+	display: inline-block;
+	float: none;
+
+	a {color: $body-font-color;}
+
+	@media #{$large-up} { 
+		display: block;
+		padding: 0;
+		margin: 0 0 0.25em;
+		padding-top: 0.3em;
+	}
+
 }
 
+.sub-nav dd {
+	
+
+
+}
 .sub-nav dd:before{
 
 	@media #{$large-up} { 
 	  content: "";
 	  position: absolute;
-	  	top: 55%;
+	  	top: 50%;
+	  	left: 1%;
 		width: 7px;
 		height: 7px;
 		background: lighten($body-font-color, 60);
@@ -80,7 +102,8 @@
 	@media #{$large-up} { 
 	  content: "";
 	  position: absolute;
-	  	top: 45%;
+	  	top: 40%;
+	  	left: 0%;
 		width: 12px;
 		height: 12px;
 		background: $secondary-color;
@@ -91,28 +114,31 @@
 }
 
 .sub-nav dd a {
-	padding-left: 1em;
+	padding-left: 0;
 	padding-top: 0.1em;
 	text-transform: lowercase;
+	padding: 0 1rem;
 }
 
 .sub-nav dd.active a {
+	padding-left: 20px 1rem;
 	@media #{$large-up} { 
 
 	}
-}
-.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover{
-	background: none;
 }
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
 	background: none;
 	color: $body-font-color;
 	padding-top: 0;
 	font-weight: bold;
-	padding: 0.1875rem 1rem;
+	/*padding: 0.1875rem 1rem;*/
+	padding: 0 1rem;
 
 	@media #{$large-up} {
 		
 	}
 
+}
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover{
+	background: none;
 }
