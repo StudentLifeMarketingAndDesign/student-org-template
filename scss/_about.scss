@@ -1,0 +1,63 @@
+/* About */
+
+
+
+.about-hero {
+	background-image: url('../images/group.jpg');
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	
+	background-color: white;
+
+	@media #{$medium-up} { 
+		padding-top: 660px;
+		position: relative;
+		z-index: 999;
+	}
+
+}
+
+.main .tagline-container .row{
+	background: none;
+	border: none;
+}
+
+.tagline-container {
+	background-color: $primary-color;
+	color: white;
+	font-style: italic;
+	position: relative;
+	z-index: 999;
+	background-image: url('../images/group.jpg');
+	background-size: cover;
+	background-position: 50% 0;
+	text-shadow: 0 2px 0 #333;
+
+	@media #{$medium-up} {
+		background-image: none;
+		text-shadow: none;
+	}
+
+
+	p{
+		text-align: center;
+		font-size: rem-calc(23);
+		background-color: rgba(#000000, 0.7);
+		
+		padding: 0.5rem;
+		margin-bottom: 0;
+
+		@media #{$medium-up} {
+			background-color: $primary-color;
+			margin-top: -60px;
+			font-size: rem-calc(32);
+		}
+	}
+
+	.row{
+		border: none;
+	}
+
+
+
+}

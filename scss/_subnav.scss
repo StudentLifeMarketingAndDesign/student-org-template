@@ -102,8 +102,9 @@
 	@media #{$large-up} { 
 	  content: "";
 	  position: absolute;
-	  	top: 40%;
+	  	top: 39%;
 	  	left: 0%;
+	  	right: 1%;
 		width: 12px;
 		height: 12px;
 		background: $secondary-color;

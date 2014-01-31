@@ -53,7 +53,7 @@
 // $default-float: left;
 
 // We use these as default colors throughout
- $primary-color: #8dcdda;
+ $primary-color: #60adbd;
  $secondary-color: #ffce2f;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -168,7 +168,7 @@
 
 // We use this to control the maximum number of block grid elements per row
 // $block-grid-elements: 12;
-// $block-grid-default-spacing: rem-calc(20);
+ $block-grid-default-spacing: 5px;
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 // $block-grid-media-queries: true;
