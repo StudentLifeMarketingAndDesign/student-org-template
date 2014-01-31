@@ -4851,7 +4851,7 @@ header h1 {
 
 .sub-nav-container, .sub-nav-container.fixed {
   border-bottom: 3px solid #ffce2f;
-  background: white;
+  /*background: white;*/
   z-index: 1000; }
 @media only screen and (min-width: 64.063em) {
   .sub-nav-container, .sub-nav-container.fixed {
@@ -4880,7 +4880,7 @@ header h1 {
 @media only screen and (min-width: 64.063em) {
   .sub-nav {
     text-align: left;
-    background: white; } }
+    /*background: white;*/ } }
 
 .sub-nav dd {
   position: relative;
@@ -4994,7 +4994,7 @@ header h1 {
 
 #news h2 {
   line-height: 1.2;
-  font-size: 1.9375rem;
+  font-size: 2.125rem;
   margin-top: 0; }
 #news .cover {
   background: #f2f2f2;

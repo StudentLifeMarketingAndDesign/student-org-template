@@ -16,7 +16,7 @@
 .sub-nav-container, .sub-nav-container.fixed {
 
 	border-bottom: 3px solid $secondary-color;
-	background: white;
+	/*background: white;*/
 	z-index: 1000;
 
 	@media #{$large-up} { 
@@ -50,7 +50,7 @@
 
 	@media #{$large-up} { 
 		text-align: left;
-		background: white;
+		/*background: white;*/
 	}
 }
 
