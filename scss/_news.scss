@@ -1,6 +1,13 @@
 
 #news {
 
+	#news-list {
+		@media #{$large-up} { 
+			position: relative;
+			z-index: 1000;
+		}		
+	}
+
 	h2{
 		line-height: 1.2;
 		font-size: rem-calc(34);
