@@ -1,5 +1,5 @@
-
-#news {
+/* News Section on HomePage */
+#news-section {
 
 	#news-list {
 		@media #{$large-up} { 
@@ -16,7 +16,6 @@
 	.cover {
 		background: #f2f2f2;
 		padding: 0.8em;
-
 		min-height: 100px;
 
 		@media #{$medium-up} {
@@ -27,7 +26,6 @@
 			min-height: 240px;
 		}
 	}
-
 	article {
 		min-height: 100px;
 
@@ -40,10 +38,7 @@
 		span {
 			color: #919191;
 		}
-
-
 	}
-
 	article.has-background{
 		background-size: cover;
 
@@ -59,7 +54,62 @@
 			background: rgba(#000000, 0.3);
 		}
 	}
+}
+
+/* Individual News Page */
+
+.article-header {
+	margin-top: 10px;
+	img {
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+}
+
+.article-text{
+
+}
+
+.article-text.has-image {
+	background-color: $body-bg;
+	padding: 20px;
+
+	margin-top: -5%;
+	@media #{$medium-up} { 
+		margin-top: -10%;
+	}
+	@media #{$large-up} { 
+		margin-top: -15%;
+	}	
+}
+
+/* News section in the sidebar on individual pages */
+#news-section.sidebar{
+	#news-list {
+		h2 {
+			font-size: rem-calc(20);
+			margin-bottom: 0;
+		}
+		span{
+			font-size: rem-calc(12);
+		}
+		article{
+			min-height: 0;
+			
+		}
+		article .cover {
+			background: none;
+		}
 
 
+	}
+}
 
+.sidebar-news-list{
+  @include block-grid(
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: 1.1em
+
+  );
 }

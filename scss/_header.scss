@@ -12,11 +12,15 @@ header {
 
 
 	h1{
-		margin-top: 0.8rem;
-		margin-bottom: 0.55rem;
+
+		font-size: rem-calc(22);
+		margin-top: 0.4rem;
+		margin-bottom: 0rem;
 
 		@media #{$medium-up} { 
-
+			font-size: $h1-font-size;
+			margin-top: 0.8rem;
+			margin-bottom: 0.55rem;
 		}
 
 	}

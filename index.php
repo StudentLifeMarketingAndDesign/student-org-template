@@ -4,7 +4,7 @@
 
       <div class="main" role="main">
 
-                <div class="about-hero" id="about" data-magellan-destination="about">
+                <div class="about-hero" data-magellan-destination="about">
 
                 </div>
 
@@ -13,6 +13,7 @@
                 <p>The Knitting and Sailing Club throws convention to the wind. We are a small, welcoming student organization focused around the outdoor wet knitting sensation currently sweeping the nation.
               </div>
             </div>
+        <a name="about" class="anchor"></a>
          <div class="row section-container">
                 <section>
                   <h1>About</h1>
@@ -35,13 +36,14 @@
                     </div>
                 </section>
             </div>
+            <a name="news" class="anchor"></a>
             <div class="row section-container" data-magellan-destination="news">
-
-                <section id="news">
+                <section id="news-section">
                   <h1>News</h1>
                   <div class="large-11">      
                   <ul id="news-list" class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                     <li>
+                      <img src="images/yacht.jpg" />
                         <article class="has-background" style="background-image: url('images/yacht.jpg');"> 
                           <div class="cover">
                             <h2><a href="news.php">We've got a new yacht!!</a></h2><span>posted on Feb 21</span>
