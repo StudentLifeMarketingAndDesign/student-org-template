@@ -1,5 +1,5 @@
 <header class="full-header">
-      <h1>Knitting and Sailing Club</h1>
+      <h1><a href="index.php">Knitting and Sailing Club</a></h1>
     </header>
 
     <div data-magellan-expedition="" class="sub-nav-container">

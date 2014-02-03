@@ -6,12 +6,19 @@
 		height: 0;
 		
 	}
-
 	.sub-nav .active{
 		line-height: 1.6;
 	}	
+
+
 }
 
+.sub-nav-container.fixed>div{
+	@media #{$large-up} {
+		height: 0;
+		display: none;
+	}
+}
 
 .sub-nav-container, .sub-nav-container.fixed {
 

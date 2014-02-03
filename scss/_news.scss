@@ -2,56 +2,53 @@
 #news-section {
 
 	#news-list {
+		
 		@media #{$large-up} { 
 			position: relative;
 			z-index: 1000;
+			@include block-grid(
+			    // This controls how much space is between each item in the block grid.
+			    // Use a variable or any pixel or em values.
+			    $spacing: 1.6em
+			);
 		}		
 	}
 
+	.news-image{
+		display: block;
+		height: 120px;
+		overflow: hidden;
+		background-size: cover;
+		background-position: 0 30%;
+
+		@media #{$medium-up} {
+			height: 120px;
+		}
+
+		@media #{$large-up} { 
+			height: 188px;
+		}		
+	}
+
+	h3{
+		margin: 0.8em 0;
+
+	}
+
 	h2{
-		line-height: 1.2;
-		font-size: rem-calc(34);
-		margin-top: 0;
+		line-height: 1.1;
+		font-size: rem-calc(26);
+		margin: 0.3em 0;
+		margin-bottom: 0;
 	}
-	.cover {
-		background: #f2f2f2;
-		padding: 0.8em;
-		min-height: 100px;
 
-		@media #{$medium-up} {
-			min-height: 150px;
-		}
-
-		@media #{$large-up} { 
-			min-height: 240px;
-		}
-	}
 	article {
-		min-height: 100px;
-
-		@media #{$medium-up} {
-			min-height: 150px;
-		}
-		@media #{$large-up} { 
-			min-height: 240px;
-		}
 		span {
 			color: #919191;
+			font-size: rem-calc(12);
 		}
-	}
-	article.has-background{
-		background-size: cover;
-
-		h2 a {
-			color: lighten($primary-color, 30);
-			text-shadow: 0 1px 0 #333;
-		}
-		span {
-			color: #E4E4E4;
-			text-shadow: 0 1px 0 #333;
-		}
-		.cover{
-			background: rgba(#000000, 0.3);
+		p{
+			font-size: rem-calc(14);
 		}
 	}
 }
@@ -59,39 +56,61 @@
 /* Individual News Page */
 
 .article-header {
-	margin-top: 10px;
+	height: 300px;
+	background-size: cover;
+	@media #{$medium-up} {
+		height: 400px;
+		background-position: 0 50%;
+	}
 	img {
-		margin-bottom: 1rem;
+	
 		width: 100%;
+	}
+
+	.effect{
+		height: 200px;
 	}
 }
 
 .article-text{
+	span {
+		color: #aaa;
+		font-size: rem-calc(12);
+		display: block;
+		margin: 0.4em 0;
+		border-bottom: $gray;
+		padding-bottom: 0.8em;
+	}
 
 }
 
 .article-text.has-image {
 	background-color: $body-bg;
-	padding: 20px;
-
-	margin-top: -5%;
 	@media #{$medium-up} { 
-		margin-top: -10%;
+		margin-top: -5%;
+
 	}
 	@media #{$large-up} { 
-		margin-top: -15%;
+		margin-top: -10%;
 	}	
 }
-
+.effect {
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);		
+}
 /* News section in the sidebar on individual pages */
 #news-section.sidebar{
 	#news-list {
 		h2 {
 			font-size: rem-calc(20);
-			margin-bottom: 0;
+			margin: 0;
 		}
 		span{
 			font-size: rem-calc(12);
+
 		}
 		article{
 			min-height: 0;
