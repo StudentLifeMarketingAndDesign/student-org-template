@@ -1517,16 +1517,16 @@ select {
   overflow: hidden;
   margin-left: 0;
   list-style: none;
-  border-style: solid;
+  border-style: none;
   border-width: 1px;
-  background-color: #ffe9a1;
-  border-color: #ffdf78;
-  -webkit-border-radius: 3px;
-  border-radius: 3px; }
+  background-color: white;
+  border-color: #e6e6e6;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
 .breadcrumbs > * {
   margin: 0;
   float: left;
-  font-size: 0.6875rem;
+  font-size: rem-calc(11);
   text-transform: uppercase; }
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
   text-decoration: underline; }
@@ -1550,8 +1550,8 @@ select {
   color: #999999;
   cursor: default; }
 .breadcrumbs > *:before {
-  content: "/";
-  color: #aaaaaa;
+  content: "\25B8";
+  color: #333333;
   margin: 0 0.75rem;
   position: relative;
   top: 1px; }
@@ -4831,10 +4831,13 @@ header {
   display: block;
   background: #fff;
   text-align: center;
-  border-bottom: 3px solid #ffce2f;
   text-transform: uppercase; }
+@media only screen and (min-width: 64.063em) {
+  header {
+    border-bottom: 3px solid #ffce2f; } }
 header h1 {
-  margin-top: 0.8rem; }
+  margin-top: 0.8rem;
+  margin-bottom: 0.55rem; }
 
 /* Mobile Nav Stuff */
 .nav-container {
@@ -4880,6 +4883,7 @@ header h1 {
 @media only screen and (min-width: 64.063em) {
   .sub-nav {
     text-align: left;
+    padding: 10px;
     /*background: white;*/ } }
 
 .sub-nav dd {
@@ -5127,3 +5131,7 @@ section {
 @media only screen and (min-width: 64.063em) {
   section {
     margin-bottom: 40px; } }
+
+/* Single Page Styles */
+.breadcrumbs {
+  border-bottom: 1px solid #f2f2f2; }

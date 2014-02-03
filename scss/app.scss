@@ -35,8 +35,11 @@ section {
 	@media #{$large-up} { 
 		margin-bottom: 40px;
 	}
-	
+}
 
+/* Single Page Styles */
+.breadcrumbs {
+	border-bottom: 1px solid #f2f2f2;
 }
 
 

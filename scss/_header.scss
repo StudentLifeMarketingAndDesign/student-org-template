@@ -4,12 +4,23 @@ header {
 	display: block;
 	background: #fff;
 	text-align: center;
-	border-bottom: 3px solid $secondary-color;
+	
 	text-transform: uppercase;
+	@media #{$large-up} { 
+		border-bottom: 3px solid $secondary-color;
+	}
+
 
 	h1{
 		margin-top: 0.8rem;
+		margin-bottom: 0.55rem;
+
+		@media #{$medium-up} { 
+
+		}
+
 	}
+
 }
 
 /* Mobile Nav Stuff */

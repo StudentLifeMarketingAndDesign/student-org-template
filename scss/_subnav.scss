@@ -2,9 +2,9 @@
 
 [data-magellan-expedition] {
 	padding: 0 10px;
-
 	@media #{$large-up} { 
 		height: 0;
+		
 	}
 
 	.sub-nav .active{
@@ -31,6 +31,7 @@
 		border: none;
 		display: block;
 		z-index: 999;
+
 	}
 
 }
@@ -50,6 +51,7 @@
 
 	@media #{$large-up} { 
 		text-align: left;
+		padding: 10px;
 		/*background: white;*/
 	}
 }
