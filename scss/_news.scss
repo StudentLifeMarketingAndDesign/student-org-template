@@ -1,4 +1,7 @@
 /* News Section on HomePage */
+.option1 #news-list li:hover, .option2 #news-list li:hover {
+	background: white;
+}
 #news-section {
 
 	#news-list {
@@ -11,6 +14,10 @@
 			    // Use a variable or any pixel or em values.
 			    $spacing: 1.6em
 			);
+		}
+
+		li {
+			padding:1em;
 		}		
 	}
 
@@ -109,18 +116,22 @@
 	display: none;
 }
 .option1.blur-supported .effect {
-	height: 400px;
+	height: 375px;
 	display: block;
 	z-index: 1;
 	/*z-index: -99;*/
 	position: absolute;
-	top: 35%;
+	top: 20%;
 	bottom: 0;
 	left: 0;
 	width: 100%;
 	background-position: 0 105%;
 	background-size: cover;
-	-webkit-filter: blur(60px);	
+	-webkit-filter: blur(60px);
+
+	@media #{$large-up} {
+		top: 35%;
+	}
 }
 
 .option2.blur-supported .effect {
@@ -144,10 +155,10 @@
 	/*z-index: 1;*/
 	z-index: -99;
 	position: absolute;
-	top: 23%;
+	top: 30%;
 	bottom: 0;
 	left: 1.5%;
-	width: 98%;
+	width: 96%;
 	background-position: 0 105%;
 	background-size: cover;
 	-webkit-filter: blur(80px);	
@@ -155,7 +166,7 @@
 /* News section in the sidebar on individual pages */
 
 .option1 #news-section.sidebar{
-	background: rgba($body-bg, 0.90);
+	background: rgba($body-bg, 0.80);
 }
 #news-section.sidebar{
 	z-index: 999;
