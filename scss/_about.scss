@@ -3,35 +3,35 @@
 
 
 .about-hero {
-	background-image: url('../images/group.jpg');
+	background-color: white;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
-	
-	background-color: white;
 
 	@media #{$medium-up} { 
-		padding-top: 660px;
+		padding-top: 300px;
 		position: relative;
 		z-index: 999;
 	}
-
+	@media #{$large-up} { 
+		padding-top: 400px;
+	}
+	@media #{$xlarge-up} { 
+		padding-top: 550px;
+	}
 }
 
 .main .tagline-container .row{
-	background: none;
+	background-color: white;
 	border: none;
 }
 
 .tagline-container {
-	background-color: $primary-color;
-	color: white;
 	font-style: italic;
 	position: relative;
 	z-index: 999;
 	background-image: url('../images/group.jpg');
 	background-size: cover;
 	background-position: 50% 0;
-	text-shadow: 0 2px 0 #333;
 
 	@media #{$medium-up} {
 		background-image: none;
@@ -40,24 +40,55 @@
 
 
 	p{
-		text-align: center;
+		text-align: left;
 		font-size: rem-calc(23);
-		background-color: rgba(77, 77, 77, 0.8);
-		
-		padding: 0.5rem;
+		padding: 0.9rem;
 		margin-bottom: 0;
-
+		color: #969696;
 		@media #{$medium-up} {
-			background-color: $primary-color;
-			margin-top: -60px;
-			font-size: rem-calc(32);
+			background-color: white;
+			font-size: rem-calc(28);
 		}
+	}
+
+	p strong {
+		color: $primary-color;
 	}
 
 	.row{
 		border: none;
 	}
+}
 
+.tagline {
+	background: white;
+	border-bottom: 1px solid #dfdfdf;
+	@media #{$medium-up} {
+		padding: 2em 0;
 
+	}
+}
+.tagline-links {
+	background: white;
+	padding: 1.25em;
+}
 
+.tagline-link {
+/*  @include button($padding, $bg, $radius, $full-width, $disabled, $is-input); */
+	@include button(rem-calc(12), #F5C362, false, false, false, false);
+	font-size: rem-calc(18);
+	margin-bottom: 0.5em;
+	display: block;
+	color: #FFF;
+	font-family: "Proxima Nova Condensed", "proxima-nova-condensed", sans-serif;
+	font-weight: 600;
+	letter-spacing: .05em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	text-transform: uppercase;
+	font-style: normal;
+	-webkit-transition: all .2s ease-out;
+}
+
+.tagline-link:hover{
+	background-color: $primary-color;
 }

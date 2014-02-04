@@ -56,6 +56,41 @@ section {
 	}
 }
 
+/* Blur Stuff
 
+/* don't bother enabling blur on oudated browsers */
+.effect {
+	display: none;
+}
+.blur-supported .effect {
+	@media #{$large-up} { 
+		height: 200px;
+		display: block;
+		/*z-index: 1;*/
+		z-index: -99;
+		position: absolute;
+		top: 30%;
+		bottom: 0;
+		left: 1.5%;
+		width: 95%;
+		background-position: 0 105%;
+		background-size: cover;
+		-webkit-filter: blur(80px);
+		-webkit-transform: scaleY(-1);
+	    transform: scaleY(-1);
+	}
+}
+
+.blur-supported .effect.home{
+	-webkit-filter: blur(70px);
+	background-position: 0;
+
+	@media #{$medium-up}{
+		top: 19%;
+	}
+	@media #{$large-up}{
+		top: 23%;
+	}
+}
 
 

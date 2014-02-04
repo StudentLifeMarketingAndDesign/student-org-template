@@ -2,6 +2,7 @@
 
 [data-magellan-expedition] {
 	padding: 0 10px;
+	
 	@media #{$large-up} { 
 		height: 0;
 	}
@@ -52,7 +53,7 @@
 .sub-nav {
 	padding: 0;
 	text-align: center;
-
+	background-color: rgba(#FFFFFF, 0.85);
 	@media #{$large-up} { 
 		text-align: left;
 		padding: 10px;

@@ -3,17 +3,27 @@
 
 
       <div class="main" role="main">
-
-                <div class="about-hero" data-magellan-destination="about">
-
+                <div class="effect home" style="background-image: url('images/colortest13.jpg');"></div>
+                <div class="about-hero" data-magellan-destination="about" style=" background-image: url('images/colortest13.jpg');">
+                  <div class="tagline-container">
+                    <div class="row">
+                      <div class="large-10 large-centered columns tagline">
+                        <div class="row">
+                          <div class="large-10 columns">
+                            <p>The Knitting and Sailing Club throws convention to the wind. We are a small, welcoming student organization focused around the outdoor wet knitting sensation currently sweeping the nation.
+                          </div>
+                          <div class="large-2 columns tagline-links">
+                              <a href="#" class="tagline-link">Join</a>
+                              <a href="#" class="tagline-link">Visit us on OrgSync</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-            <div class="tagline-container">
-              <div class="row section-container">
-                <p>The Knitting and Sailing Club throws convention to the wind. We are a small, welcoming student organization focused around the outdoor wet knitting sensation currently sweeping the nation.
-              </div>
-            </div>
-        <a name="about" class="anchor"></a>
+
+       <!-- <a name="about" class="anchor"></a> -->
          <div class="row section-container">
                 <section>
                   <h1>About</h1>
@@ -40,7 +50,7 @@
             <div class="row section-container" data-magellan-destination="news">
                 <section id="news-section">
                   <h1>News</h1>
-                  <div class="large-11 columns">      
+                  <div class="large-11 large-centered columns">      
                   <ul id="news-list" class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                     <li>
                       <a class="news-image" style="background-image: url('images/news-example1.jpg')"></a>

@@ -1,14 +1,11 @@
 /* News Section on HomePage */
-.option1 #news-list li:hover, .option2 #news-list li:hover {
-	background: white;
-}
 #news-section {
 
 	#news-list {
 		
 		@media #{$large-up} { 
 			position: relative;
-			z-index: 1000;
+			z-index: 1;
 			@include block-grid(
 			    // This controls how much space is between each item in the block grid.
 			    // Use a variable or any pixel or em values.
@@ -118,28 +115,6 @@
 	}	
 }
 
-/* don't bother enabling blur on oudated browsers */
-.effect {
-	display: none;
-}
-.blur-supported .effect {
-	@media #{$large-up} { 
-		height: 200px;
-		display: block;
-		/*z-index: 1;*/
-		z-index: -99;
-		position: absolute;
-		top: 30%;
-		bottom: 0;
-		left: 1.5%;
-		width: 95%;
-		background-position: 0 105%;
-		background-size: cover;
-		-webkit-filter: blur(80px);
-		-webkit-transform: scaleY(-1);
-	    transform: scaleY(-1);
-	}
-}
 /* News section in the sidebar on individual pages */
 
 #news-section.sidebar{
