@@ -122,7 +122,23 @@
 	background-size: cover;
 	-webkit-filter: blur(60px);	
 }
+
 .option2.blur-supported .effect {
+	height: 350px;
+	display: block;
+	z-index: 1;
+	/*z-index: -99;*/
+	position: absolute;
+	top: 35%;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-position: 0 105%;
+	background-size: cover;
+	-webkit-filter: blur(100px);	
+}
+
+.option3.blur-supported .effect {
 	height: 200px;
 	display: block;
 	/*z-index: 1;*/
@@ -136,8 +152,6 @@
 	background-size: cover;
 	-webkit-filter: blur(80px);	
 }
-
-
 /* News section in the sidebar on individual pages */
 
 .option1 #news-section.sidebar{

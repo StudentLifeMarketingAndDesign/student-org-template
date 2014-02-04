@@ -1,5 +1,12 @@
 <!doctype html>
-<html class="no-js option2" lang="en">
+<?php
+    if(isset($_GET['option'])){
+        $option = $_GET['option'];
+    }else{
+        $option = 0;
+    }
+?>
+<html class="no-js option<?php echo $option ?>" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
