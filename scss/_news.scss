@@ -103,8 +103,14 @@
 		margin-top: -10%;
 	}	
 }
-.blur-supported .effect {
+
+/* don't bother enabling blur on old browsers */
+.effect {
+	display: none;
+}
+.option1.blur-supported .effect {
 	height: 400px;
+	display: block;
 	z-index: 1;
 	/*z-index: -99;*/
 	position: absolute;
@@ -116,13 +122,30 @@
 	background-size: cover;
 	-webkit-filter: blur(60px);	
 }
-.no-blur-supported .effect {
-	display: none;
+.option2.blur-supported .effect {
+	height: 200px;
+	display: block;
+	/*z-index: 1;*/
+	z-index: -99;
+	position: absolute;
+	top: 23%;
+	bottom: 0;
+	left: 1.5%;
+	width: 98%;
+	background-position: 0 105%;
+	background-size: cover;
+	-webkit-filter: blur(80px);	
 }
+
+
 /* News section in the sidebar on individual pages */
+
+.option1 #news-section.sidebar{
+	background: rgba($body-bg, 0.90);
+}
 #news-section.sidebar{
 	z-index: 999;
-	background: rgba($body-bg, 0.90);
+	background: white;
 	#news-list {
 		h2 {
 			font-size: rem-calc(20);
