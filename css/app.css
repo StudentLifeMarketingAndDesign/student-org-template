@@ -7917,8 +7917,8 @@ header h1 a:active {
 /* line 106, ../scss/_news.scss */
 .effect {
   height: 200px;
-  z-index: 1;
-  /*z-index: -99; */
+  /*z-index: 1;*/
+  z-index: -99;
   position: absolute;
   top: 25%;
   bottom: 0;

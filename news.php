@@ -11,13 +11,13 @@
 
 		
 			<div class="row">
-				<div class="article-header" style="background-image: url('images/news-example3.jpg');">
+				<div class="article-header" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');">
 					<!--<img src="images/news-example<?php echo $randomImage; ?>.jpg" />-->
 					<!--<img src="http://dummyimage.com/200x700/f2f2f2/333333" />-->
 					
 				</div>
 			</div>
-			<div class="effect" style="background-image: url('images/news-example3.jpg');"></div>
+			<div class="effect" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');"></div>
 			<div class="row article-container">
 			
 				
