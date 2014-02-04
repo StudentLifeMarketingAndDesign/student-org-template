@@ -4980,13 +4980,15 @@ header h1 a:active {
   .about-hero {
     padding-top: 300px;
     position: relative;
-    z-index: 999; } }
+    z-index: 999;
+    background-position: 50% 50%; } }
 @media only screen and (min-width: 64.063em) {
   .about-hero {
-    padding-top: 400px; } }
+    padding-top: 400px;
+    background-position: 50% 0; } }
 @media only screen and (min-width: 90.063em) {
   .about-hero {
-    padding-top: 550px; } }
+    padding-top: 400px; } }
 
 .main .tagline-container .row {
   background-color: white;
@@ -4996,13 +4998,8 @@ header h1 a:active {
   font-style: italic;
   position: relative;
   z-index: 999;
-  background-image: url("../images/group.jpg");
   background-size: cover;
   background-position: 50% 0; }
-@media only screen and (min-width: 40.063em) {
-  .tagline-container {
-    background-image: none;
-    text-shadow: none; } }
 .tagline-container p {
   text-align: left;
   font-size: 1.4375rem;
@@ -5027,7 +5024,10 @@ header h1 a:active {
 
 .tagline-links {
   background: white;
-  padding: 1.25em; }
+  text-align: center; }
+@media only screen and (min-width: 40.063em) {
+  .tagline-links {
+    padding-top: 1.25em; } }
 
 .tagline-link {
   /*  @include button($padding, $bg, $radius, $full-width, $disabled, $is-input); */
@@ -5051,8 +5051,6 @@ header h1 a:active {
   border-color: #f1aa22;
   color: white;
   font-size: 1.125rem;
-  margin-bottom: 0.5em;
-  display: block;
   color: #FFF;
   font-family: "Proxima Nova Condensed", "proxima-nova-condensed", sans-serif;
   font-weight: 600;
@@ -5065,6 +5063,10 @@ header h1 a:active {
   background-color: #f1aa22; }
 .tagline-link:hover, .tagline-link:focus {
   color: white; }
+@media only screen and (min-width: 64.063em) {
+  .tagline-link {
+    display: block;
+    margin-bottom: 0.5em; } }
 
 .tagline-link:hover {
   background-color: #60adbd; }
@@ -5326,7 +5328,4 @@ section {
   background-position: 0; }
 @media only screen and (min-width: 40.063em) {
   .blur-supported .effect.home {
-    top: 19%; } }
-@media only screen and (min-width: 64.063em) {
-  .blur-supported .effect.home {
-    top: 23%; } }
+    top: 17%; } }
