@@ -55,9 +55,15 @@
 
 /* Individual News Page */
 
+.article-container{
+    position: relative;
+    z-index: 1;
+}
 .article-header {
 	height: 300px;
 	background-size: cover;
+	position: relative;
+	z-index: -1;
 	@media #{$medium-up} {
 		height: 400px;
 		background-position: 0 50%;
@@ -67,12 +73,13 @@
 		width: 100%;
 	}
 
-	.effect{
-		height: 200px;
-	}
 }
 
 .article-text{
+	h1{
+	    position: relative;
+	    z-index: 999;
+	}
 	span {
 		color: #aaa;
 		font-size: rem-calc(12);
@@ -86,6 +93,8 @@
 
 .article-text.has-image {
 	background-color: $body-bg;
+	position: relative;
+    z-index: 999;
 	@media #{$medium-up} { 
 		margin-top: -5%;
 
@@ -95,14 +104,28 @@
 	}	
 }
 .effect {
-	-webkit-filter: blur(20px);
+	height: 200px;
+	z-index: 1;
+	/*z-index: -99; */
+	position: absolute;
+	top: 25%;
+	bottom: 0;
+	
+	width: 97%;
+	background-position: 0 80%;
+	background-size: cover;
+	-webkit-filter: blur(60px);
+	filter: url('../images/blur.svg#blur');
 	-moz-filter: blur(15px);
 	-o-filter: blur(15px);
 	-ms-filter: blur(15px);
+	filter: progid:DXImageTransform.Microsoft.blur(MakeShadow='false', PixelRadius='16',ShadowOpacity='0.75'); 
 	filter: blur(15px);		
 }
 /* News section in the sidebar on individual pages */
 #news-section.sidebar{
+	z-index: 999;
+	background: $body-bg;
 	#news-list {
 		h2 {
 			font-size: rem-calc(20);
