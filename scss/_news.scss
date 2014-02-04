@@ -111,45 +111,10 @@
 	}	
 }
 
-/* don't bother enabling blur on old browsers */
+/* don't bother enabling blur on oudated browsers */
 .effect {
 	display: none;
 }
-.option1.blur-supported .effect {
-	height: 375px;
-	display: block;
-	z-index: 1;
-	/*z-index: -99;*/
-	position: absolute;
-	top: 20%;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background-position: 0 65%;
-	background-size: cover;
-	-webkit-filter: blur(60px);
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-	@media #{$large-up} {
-		top: 35%;
-	}
-}
-
-.option2.blur-supported .effect {
-	height: 350px;
-	display: block;
-	z-index: 1;
-	/*z-index: -99;*/
-	position: absolute;
-	top: 35%;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background-position: 0 105%;
-	background-size: cover;
-	-webkit-filter: blur(100px);	
-}
-
 .option3.blur-supported .effect {
 	height: 200px;
 	display: block;
@@ -162,13 +127,12 @@
 	width: 95%;
 	background-position: 0 105%;
 	background-size: cover;
-	-webkit-filter: blur(80px);	
+	-webkit-filter: blur(80px);
+	-webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
 /* News section in the sidebar on individual pages */
 
-.option1 #news-section.sidebar{
-	background: rgba($body-bg, 0.88);
-}
 #news-section.sidebar{
 	z-index: 999;
 	background: white;
