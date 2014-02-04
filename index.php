@@ -3,8 +3,8 @@
 
 
       <div class="main" role="main">
-                <div class="effect home" style="background-image: url('images/colortest13.jpg');"></div>
-                <div class="about-hero" data-magellan-destination="about" style=" background-image: url('images/colortest13.jpg');">
+                <div class="effect home" style="background-image: url('images/colortest3.jpg');"></div>
+                <div class="about-hero" data-magellan-destination="about" style=" background-image: url('images/colortest3.jpg');">
                   <div class="tagline-container">
                     <div class="row">
                       <div class="large-10 large-centered columns tagline">
