@@ -5035,8 +5035,6 @@ header h1 a:active {
     height: auto;
     float: left;
     padding: 0 0.8em 1.6em; } }
-#news-section #news-list li {
-  padding: 1em; }
 #news-section .news-image {
   display: block;
   height: 120px;
@@ -5068,14 +5066,17 @@ header h1 a:active {
   z-index: 1; }
 
 .article-header {
-  height: 300px;
+  height: 140px;
   background-size: cover;
   position: relative;
   z-index: -1; }
+@media only screen {
+  .article-header {
+    height: 160px;
+    background-position: 0 50%; } }
 @media only screen and (min-width: 40.063em) {
   .article-header {
-    height: 400px;
-    background-position: 0 50%; } }
+    height: 400px; } }
 .article-header img {
   width: 100%; }
 
@@ -5105,21 +5106,22 @@ header h1 a:active {
 .effect {
   display: none; }
 
-.option3.blur-supported .effect {
-  height: 200px;
-  display: block;
-  /*z-index: 1;*/
-  z-index: -99;
-  position: absolute;
-  top: 30%;
-  bottom: 0;
-  left: 1.5%;
-  width: 95%;
-  background-position: 0 105%;
-  background-size: cover;
-  -webkit-filter: blur(80px);
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1); }
+@media only screen and (min-width: 64.063em) {
+  .blur-supported .effect {
+    height: 200px;
+    display: block;
+    /*z-index: 1;*/
+    z-index: -99;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 1.5%;
+    width: 95%;
+    background-position: 0 105%;
+    background-size: cover;
+    -webkit-filter: blur(80px);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1); } }
 
 /* News section in the sidebar on individual pages */
 #news-section.sidebar {
