@@ -108,18 +108,18 @@
 	/*z-index: 1;*/
 	z-index: -99;
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	bottom: 0;
-	
-	width: 97%;
+	left: 0;
+	width: 100%;
 	background-position: 0 80%;
 	background-size: cover;
-	-webkit-filter: blur(60px);
+	-webkit-filter: blur(80px);
 	filter: url('../images/blur.svg#blur');
 	-moz-filter: blur(15px);
 	-o-filter: blur(15px);
 	-ms-filter: blur(15px);
-	filter: progid:DXImageTransform.Microsoft.blur(MakeShadow='false', PixelRadius='16',ShadowOpacity='0.75'); 
+	filter:blur(add = 0, direction = 300, strength = 60); 
 	filter: blur(15px);		
 }
 /* News section in the sidebar on individual pages */
