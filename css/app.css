@@ -7943,6 +7943,8 @@ header h1 a:active {
   background-position: 0 65%;
   background-size: cover;
   -webkit-filter: blur(60px);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 @media only screen and (min-width: 64.063em) {
   /* line 118, ../scss/_news.scss */
@@ -7951,7 +7953,7 @@ header h1 a:active {
   }
 }
 
-/* line 137, ../scss/_news.scss */
+/* line 138, ../scss/_news.scss */
 .option2.blur-supported .effect {
   height: 350px;
   display: block;
@@ -7967,7 +7969,7 @@ header h1 a:active {
   -webkit-filter: blur(100px);
 }
 
-/* line 152, ../scss/_news.scss */
+/* line 153, ../scss/_news.scss */
 .option3.blur-supported .effect {
   height: 200px;
   display: block;
@@ -7984,35 +7986,35 @@ header h1 a:active {
 }
 
 /* News section in the sidebar on individual pages */
-/* line 168, ../scss/_news.scss */
+/* line 169, ../scss/_news.scss */
 .option1 #news-section.sidebar {
   background: rgba(255, 255, 255, 0.88);
 }
 
-/* line 171, ../scss/_news.scss */
+/* line 172, ../scss/_news.scss */
 #news-section.sidebar {
   z-index: 999;
   background: white;
 }
-/* line 175, ../scss/_news.scss */
+/* line 176, ../scss/_news.scss */
 #news-section.sidebar #news-list h2 {
   font-size: 1.25rem;
   margin: 0;
 }
-/* line 179, ../scss/_news.scss */
+/* line 180, ../scss/_news.scss */
 #news-section.sidebar #news-list span {
   font-size: 0.75rem;
 }
-/* line 183, ../scss/_news.scss */
+/* line 184, ../scss/_news.scss */
 #news-section.sidebar #news-list article {
   min-height: 0;
 }
-/* line 187, ../scss/_news.scss */
+/* line 188, ../scss/_news.scss */
 #news-section.sidebar #news-list article .cover {
   background: none;
 }
 
-/* line 195, ../scss/_news.scss */
+/* line 196, ../scss/_news.scss */
 .sidebar-news-list {
   display: block;
   padding: 0;
