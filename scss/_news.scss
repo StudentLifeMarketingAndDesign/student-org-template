@@ -1,4 +1,7 @@
 /* News Section on HomePage */
+.option1 #news-list li:hover, .option2 #news-list li:hover {
+	background: white;
+}
 #news-section {
 
 	#news-list {
@@ -11,6 +14,10 @@
 			    // Use a variable or any pixel or em values.
 			    $spacing: 1.6em
 			);
+		}
+
+		li {
+			padding:1em;
 		}		
 	}
 
@@ -55,9 +62,15 @@
 
 /* Individual News Page */
 
+.article-container{
+    position: relative;
+    z-index: 1;
+}
 .article-header {
 	height: 300px;
 	background-size: cover;
+	position: relative;
+	z-index: -1;
 	@media #{$medium-up} {
 		height: 400px;
 		background-position: 0 50%;
@@ -67,12 +80,13 @@
 		width: 100%;
 	}
 
-	.effect{
-		height: 200px;
-	}
 }
 
 .article-text{
+	h1{
+	    position: relative;
+	    z-index: 999;
+	}
 	span {
 		color: #aaa;
 		font-size: rem-calc(12);
@@ -86,6 +100,8 @@
 
 .article-text.has-image {
 	background-color: $body-bg;
+	position: relative;
+    z-index: 999;
 	@media #{$medium-up} { 
 		margin-top: -5%;
 
@@ -94,15 +110,32 @@
 		margin-top: -10%;
 	}	
 }
+
+/* don't bother enabling blur on oudated browsers */
 .effect {
-	-webkit-filter: blur(20px);
-	-moz-filter: blur(15px);
-	-o-filter: blur(15px);
-	-ms-filter: blur(15px);
-	filter: blur(15px);		
+	display: none;
+}
+.option3.blur-supported .effect {
+	height: 200px;
+	display: block;
+	/*z-index: 1;*/
+	z-index: -99;
+	position: absolute;
+	top: 30%;
+	bottom: 0;
+	left: 1.5%;
+	width: 95%;
+	background-position: 0 105%;
+	background-size: cover;
+	-webkit-filter: blur(80px);
+	-webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
 /* News section in the sidebar on individual pages */
+
 #news-section.sidebar{
+	z-index: 999;
+	background: white;
 	#news-list {
 		h2 {
 			font-size: rem-calc(20);

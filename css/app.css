@@ -5014,6 +5014,9 @@ header h1 a:active {
   border: none; }
 
 /* News Section on HomePage */
+.option1 #news-list li:hover, .option2 #news-list li:hover {
+  background: white; }
+
 @media only screen and (min-width: 64.063em) {
   #news-section #news-list {
     position: relative;
@@ -5032,6 +5035,8 @@ header h1 a:active {
     height: auto;
     float: left;
     padding: 0 0.8em 1.6em; } }
+#news-section #news-list li {
+  padding: 1em; }
 #news-section .news-image {
   display: block;
   height: 120px;
@@ -5058,18 +5063,25 @@ header h1 a:active {
   font-size: 0.875rem; }
 
 /* Individual News Page */
+.article-container {
+  position: relative;
+  z-index: 1; }
+
 .article-header {
   height: 300px;
-  background-size: cover; }
+  background-size: cover;
+  position: relative;
+  z-index: -1; }
 @media only screen and (min-width: 40.063em) {
   .article-header {
     height: 400px;
     background-position: 0 50%; } }
 .article-header img {
   width: 100%; }
-.article-header .effect {
-  height: 200px; }
 
+.article-text h1 {
+  position: relative;
+  z-index: 999; }
 .article-text span {
   color: #aaa;
   font-size: 0.75rem;
@@ -5079,7 +5091,9 @@ header h1 a:active {
   padding-bottom: 0.8em; }
 
 .article-text.has-image {
-  background-color: white; }
+  background-color: white;
+  position: relative;
+  z-index: 999; }
 @media only screen and (min-width: 40.063em) {
   .article-text.has-image {
     margin-top: -5%; } }
@@ -5087,14 +5101,30 @@ header h1 a:active {
   .article-text.has-image {
     margin-top: -10%; } }
 
+/* don't bother enabling blur on oudated browsers */
 .effect {
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(15px);
-  -o-filter: blur(15px);
-  -ms-filter: blur(15px);
-  filter: blur(15px); }
+  display: none; }
+
+.option3.blur-supported .effect {
+  height: 200px;
+  display: block;
+  /*z-index: 1;*/
+  z-index: -99;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 1.5%;
+  width: 95%;
+  background-position: 0 105%;
+  background-size: cover;
+  -webkit-filter: blur(80px);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1); }
 
 /* News section in the sidebar on individual pages */
+#news-section.sidebar {
+  z-index: 999;
+  background: white; }
 #news-section.sidebar #news-list h2 {
   font-size: 1.25rem;
   margin: 0; }
