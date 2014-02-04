@@ -1,6 +1,15 @@
 <?php include('includes/top.php'); ?>
 <?php include('includes/header.php'); ?>
-<?php $randomImage = rand(1,6); ?>
+<?php 
+
+	if(isset($_GET['image']) && ($image = $_GET['image'])){
+		$image = 'images/'.$image;
+	}else{
+		$randomImage = rand(1,6);
+		$image = 'images/news-example'.$randomImage.'.jpg';
+	}
+
+?>
 
 <a name="news" data-magellan-destination="news"></a>
 <div class="main single-page" role="main">
@@ -11,13 +20,15 @@
 
 		
 			<div class="row">
-				<div class="article-header" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');">
+				<!-- <div class="article-header" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');"> -->
+				<div class="article-header" style="background-image: url('<?php echo $image; ?>');">
 					<!--<img src="images/news-example<?php echo $randomImage; ?>.jpg" />-->
 					<!--<img src="http://dummyimage.com/200x700/f2f2f2/333333" />-->
 					
 				</div>
 			</div>
-			<div class="effect" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');"></div>
+			<!-- <div class="effect" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');"></div> -->
+			<div class="effect" style="background-image: url('<?php echo $image; ?>');"></div>
 			<div class="row article-container">
 			
 				
