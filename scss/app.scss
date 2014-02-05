@@ -84,9 +84,10 @@ section {
 .blur-supported .effect.home{
 	-webkit-filter: blur(70px);
 	background-position: 0;
+	background-color: $primary-color;
 
 	@media #{$medium-up}{
-		top: 17%;
+		top: 23%;
 	}
 	@media #{$large-up}{
 
