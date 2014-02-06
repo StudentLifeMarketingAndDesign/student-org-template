@@ -8,7 +8,6 @@
                   <div class="tagline-container">
                     <div class="row">
                       <div class="large-9 large-centered columns tagline">
-
                             <p>The Knitting and Sailing Club throws convention to the wind. We are a small, welcoming student organization focused around the outdoor wet knitting sensation currently sweeping the nation.
                               <div class="tagline-links">
                                 <a href="#" class="tagline-link">Join</a>
@@ -41,6 +40,22 @@
                            <li>Aliquam tincidunt mauris eu risus.</li>
                         </ul>
                     </div>
+                </section>
+            </div>
+           <div class="row section-container latest">
+                <section id="latest">
+                  <h1>The Latest</h1>
+                      <div class="large-6 columns twitter">
+                        <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
+                          Tweets by @ussailing
+                        </a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                      </div>
+                      <div class="large-6 columns facebook">
+                        <!-- the facebook iframe needs to have a URL parameter with 600px as the height -->
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
+                      </div>
+                      <div class="clearfix"></div>
                 </section>
             </div>
             <a name="news" class="anchor"></a>

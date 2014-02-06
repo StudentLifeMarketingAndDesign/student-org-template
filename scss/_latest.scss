@@ -1,0 +1,42 @@
+.row.section-container.latest{
+   box-shadow: 0px 15px 10px -11px rgba($primary-color, .1) inset; 
+}
+
+#latest {
+
+	.facebook *, .twitter * {
+		width: 100% !important;
+		height: 200px !important;
+		background: $gray;
+		padding: 10px; 
+		@media #{$medium-up} {
+
+			height: 400px !important;
+		}
+		@media #{$large-up} { 
+			background: none;
+			padding: 0;
+			height: 600px !important;
+
+		}
+	}
+
+	.twitter{
+
+		@media #{$medium-up} {
+			border-bottom: 0;
+		}
+	}
+	.facebook, .twitter {
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+
+		@media #{$large-up} { 
+			padding-top: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
+
+}

@@ -34,9 +34,10 @@
 				
 				<!-- If the article has an image, add the "has-image" class below:-->
 				<!-- (alternatively, if you remove the has-image class, you get a more traditional image above text) -->
-				<!--<div class="large-7 article-text has-image columns"> -->
-				<div class="large-7 article-text has-image columns">
+				<!--<div class="large-8 article-text has-image columns"> -->
+				<div class="large-8 article-text has-image columns">
 	<ul class="breadcrumbs">
+						<li><a href="index.php" class="home">Home</a></li>
 				 		<li><a href="index.php#news">News</a></li>
 				  		<li class="current"><a href="#">Going Sailing This Weekend? Let Us Know!</a></li>
 					</ul>
@@ -54,7 +55,7 @@
 </ul>
 					<p><a href="index.php#news">Return to news</a></p>
 				</div>
-				<div class="large-5 columns">
+				<div class="large-4 columns">
 
 				<section id="news-section" class="row sidebar">
 
