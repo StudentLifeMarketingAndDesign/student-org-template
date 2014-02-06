@@ -10,7 +10,7 @@
 	@media #{$medium-up} { 
 		padding-top: 300px;
 		position: relative;
-		z-index: 999;
+		z-index: 99;
 		background-position: 50% 0;
 		background-size: 900px auto;
 
@@ -35,7 +35,6 @@
 .tagline-container {
 	font-style: italic;
 	position: relative;
-	z-index: 999;
 	background-size: cover;
 	background-position: 50% 0;
 	background-color: rgba($primary-color,1);
@@ -70,7 +69,7 @@
 .tagline {
 	/*background: white; */
 	/*border-bottom: 1px solid #dfdfdf;*/
-	padding: 1em;
+	padding: 0.5em;
 
 	@media #{$medium-up} {
 		margin-top: -100px;
@@ -80,8 +79,8 @@
 	@media #{$large-up} {
 		padding: 1.3em;
 	}
-	@media #{$large-up} {
-		padding: 1.6em;
+	@media #{$xlarge-up} {
+		padding: 1.4em;
 	}
 }
 .tagline-links {
