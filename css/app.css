@@ -7729,7 +7729,6 @@ header h1 a:active {
   background-color: white;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  background-size: 1600px auto;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 5, ../scss/_about.scss */
@@ -7737,29 +7736,32 @@ header h1 a:active {
     padding-top: 300px;
     position: relative;
     z-index: 999;
-    background-position: 50% 50%;
+    background-position: 50% 0;
+    background-size: 900px auto;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 5, ../scss/_about.scss */
   .about-hero {
-    padding-top: 400px;
+    padding-top: 500px;
     background-position: 50% 0;
+    background-size: 1400px auto;
   }
 }
 @media only screen and (min-width: 90.063em) {
   /* line 5, ../scss/_about.scss */
   .about-hero {
     padding-top: 660px;
+    background-size: 1600px auto;
   }
 }
 
-/* line 25, ../scss/_about.scss */
+/* line 30, ../scss/_about.scss */
 .main .tagline-container > .row {
   border: none;
 }
 
-/* line 30, ../scss/_about.scss */
+/* line 35, ../scss/_about.scss */
 .tagline-container {
   font-style: italic;
   position: relative;
@@ -7768,55 +7770,80 @@ header h1 a:active {
   background-position: 50% 0;
   background-color: #60adbd;
 }
-/* line 38, ../scss/_about.scss */
+/* line 43, ../scss/_about.scss */
 .tagline-container p {
   text-align: left;
-  font-size: 1.4375rem;
+  font-size: 1.125rem;
   padding: 0;
   margin-bottom: 0;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 38, ../scss/_about.scss */
+@media only screen {
+  /* line 43, ../scss/_about.scss */
   .tagline-container p {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 }
-/* line 50, ../scss/_about.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 43, ../scss/_about.scss */
+  .tagline-container p {
+    font-size: 1.4375rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 43, ../scss/_about.scss */
+  .tagline-container p {
+    font-size: 1.625rem;
+  }
+}
+/* line 61, ../scss/_about.scss */
 .tagline-container p strong {
   color: #60adbd;
 }
-/* line 54, ../scss/_about.scss */
+/* line 65, ../scss/_about.scss */
 .tagline-container .row {
   border: none;
 }
 
-/* line 59, ../scss/_about.scss */
+/* line 70, ../scss/_about.scss */
 .tagline {
   /*background: white; */
   /*border-bottom: 1px solid #dfdfdf;*/
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 59, ../scss/_about.scss */
+  /* line 70, ../scss/_about.scss */
   .tagline {
     margin-top: -100px;
     background: rgba(96, 173, 189, 0.95);
-    padding: 2em;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 70, ../scss/_about.scss */
+  .tagline {
+    padding: 1.3em;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 70, ../scss/_about.scss */
+  .tagline {
+    padding: 1.6em;
   }
 }
 
+/* line 87, ../scss/_about.scss */
+.tagline-links {
+  padding-top: 1em;
+}
 @media only screen and (min-width: 40.063em) {
-  /* line 72, ../scss/_about.scss */
+  /* line 87, ../scss/_about.scss */
   .tagline-links {
-    padding-top: 1.25em;
     text-align: right;
   }
 }
 
-/* line 80, ../scss/_about.scss */
+/* line 94, ../scss/_about.scss */
 .tagline-link {
   /*  @include button($padding, $bg, $radius, $full-width, $disabled, $is-input); */
   border-style: solid;
@@ -7838,7 +7865,6 @@ header h1 a:active {
   background-color: rgba(51, 51, 51, 0.3);
   border-color: rgba(41, 41, 41, 0.3);
   color: white;
-  font-size: 1.125rem;
   color: #FFF;
   font-family: "Proxima Nova Condensed", "proxima-nova-condensed", sans-serif;
   font-weight: 600;
@@ -7858,13 +7884,13 @@ header h1 a:active {
   color: white;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 80, ../scss/_about.scss */
+  /* line 94, ../scss/_about.scss */
   .tagline-link {
     margin-bottom: 0.5em;
   }
 }
 
-/* line 99, ../scss/_about.scss */
+/* line 112, ../scss/_about.scss */
 .tagline-link:hover {
   background-color: #ffce2f;
 }

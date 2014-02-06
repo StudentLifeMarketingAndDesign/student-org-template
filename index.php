@@ -3,7 +3,7 @@
 
 
       <div class="main" role="main">
-                <div class="effect home"></div>
+              <!--  <div class="effect home"></div> -->
                 <div class="about-hero" data-magellan-destination="about" style=" background-image: url('images/group2.jpg');">
                   <div class="tagline-container">
                     <div class="row">
