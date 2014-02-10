@@ -5113,6 +5113,10 @@ section.social-media-links {
   font-size: 3rem;
   text-align: center;
   padding: 0 0.5rem; }
+.social-media-links ul li a {
+  color: #AAA; }
+.social-media-links ul li a:hover {
+  color: #ffce2f; }
 @media only screen and (min-width: 64.063em) {
   .social-media-links ul li {
     font-size: 3.875rem; } }

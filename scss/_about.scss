@@ -143,6 +143,14 @@ section.social-media-links {
 	text-align: center;
 	padding: 0 0.5rem;
 
+	a{
+		color: #AAA;
+	}
+
+	a:hover{
+		color: $secondary-color;
+	}
+
 	@media #{$large-up}{
 		font-size: rem-calc(62);
 	}
