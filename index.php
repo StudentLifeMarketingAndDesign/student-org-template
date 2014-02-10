@@ -3,45 +3,106 @@
 
 
       <div class="main" role="main">
-
-                <div class="about-hero" data-magellan-destination="about">
-
+              <!--  <div class="effect home"></div> -->
+                <div class="about-hero"  style=" background-image: url('images/group2.jpg');">
+                  <div class="tagline-container">
+                    <div class="row">
+                      <div class="large-9 large-centered columns tagline">
+                            <p>The Knitting and Sailing Club throws convention to the wind. We are a small, welcoming student organization focused around the outdoor wet knitting sensation currently sweeping the nation.
+                              <div class="tagline-links">
+                                <a href="#" class="tagline-link">Join</a>
+                                <a href="#" class="tagline-link">Visit us on OrgSync</a>
+                              </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-            <div class="tagline-container">
-              <div class="row section-container">
-                <p>The Knitting and Sailing Club throws convention to the wind. We are a small, welcoming student organization focused around the outdoor wet knitting sensation currently sweeping the nation.
-              </div>
-            </div>
-        <a name="about" class="anchor"></a>
+
+       <!-- <a name="about" class="anchor"></a> -->
          <div class="row section-container">
-                <section>
-                  <h1>About</h1>
-                      <div class="large-8 large-centered columns">
-                        <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-                        <h2>Header Level 2</h2>   
-                        <ol>
-                           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                           <li>Aliquam tincidunt mauris eu risus.</li>
-                        </ol>
+               <section class="social-media-links">
+                  <ul>
+                    <li><a href="#" class="fi-social-facebook"></a></li>
+                    <li><a href="#" class="fi-social-twitter"></a></li>
+                    <li><a href="#" class="fi-social-instagram"></a></li>
+                  </ul>
+                </section>
+                <section id="about" data-magellan-destination="about">
+                      <div class="large-10 large-centered columns">
+           
+                          <div class="row">
+                            <div class="large-8 columns">
+                            <h2>30 Years of Sailing</h2>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
 
-                        <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-
-                        <h3>Header Level 3</h3>
-
-                        <ul>
-                           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                           <li>Aliquam tincidunt mauris eu risus.</li>
-                        </ul>
+                            <h2>How to Join</h2>   
+                            <ol>
+                               <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                               <li>Aliquam tincidunt mauris eu risus.</li>
+                            </ol>
+                            <a href="#" class="button">Sign Up Forms</a>
+                            <p><img src="images/about-example.jpg" /></p>
+                            </div>
+                            <div class="large-4 columns">
+                               <!--<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>-->
+                                <ul id="news-list" class="sidebar-news-list small-block-grid-2 large-block-grid-2">
+                                  <li>
+                                    <article>
+                                      <a class="news-image" style="background-image: url('images/news-example6.jpg')"></a>
+                                        <h3><a href="news.php">Are you sailing this weekend? Let us Know!</a></h3><span> Feb 21</span> 
+                                        
+                                    </article>
+                                  </li>
+                                  <li>
+                                    <article> 
+                                      <a class="news-image" style="background-image: url('images/news-example5.jpg')"></a>
+                                        <h3><a href="news.php">Needle Safety "Tip"s</a></h3><span> Feb 21</span>                
+                                    </article>
+                                  </li>
+                                  <li>
+                                    <article>
+                                      <a class="news-image" style="background-image: url('images/news-example4.jpg')"></a>
+                                      <h3><a href="news.php">We are recruiting! Come sail with us!</a></h3><span> Feb 21</span>
+                                    </article>
+                                  </li>
+                                   <li>
+                                    <article>
+                                      <h3><a href="news.php">Best Music to listen to while knitting (and sailing)</a></h3><span> Feb 21</span>
+                                    </article>
+                                  </li>              
+                              </ul>
+                            </div>
+                          </div>s
                     </div>
+
+                </section>
+               
+
+            </div>
+           <div class="row section-container latest">
+                <section id="latest">
+                  <h1>The Latest</h1>
+                  <div class="large-5 columns facebook">
+                      <!-- the facebook iframe needs to have a URL parameter with 600px as the height -->
+                      <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
+                   </div>
+                     <!-- <div class="large-6 columns twitter">
+                        <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
+                          Tweets by @ussailing
+                        </a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                      </div>-->
+                     
+                      <div class="clearfix"></div>
                 </section>
             </div>
             <a name="news" class="anchor"></a>
             <div class="row section-container" data-magellan-destination="news">
                 <section id="news-section">
                   <h1>News</h1>
-                  <div class="large-11 columns">      
-                  <ul id="news-list" class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+                  <div class="large-11 large-centered columns">      
+                  <!--<ul id="news-list" class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                     <li>
                       <a class="news-image" style="background-image: url('images/news-example1.jpg')"></a>
                       <article> 
@@ -90,7 +151,7 @@
                        
                       </article>
                     </li>                
-                  </ul>
+                  </ul>-->
                   <hr />
                   <p><a href="#">View News Archive</a></p>
                 </section>

@@ -5,28 +5,47 @@
 @import "icons";
 @import "grid-simple";
 
+@import "../font/foundation-icons/foundation-icons.css";
+
 /* Import Site Layout Stuff */
 @import "header";
 @import "subnav";
 @import "about";
 @import "news";
 @import "footer";
+@import "latest";
+
+
+.clearfix {
+  @include clearfix;
+}
+
+/* Override Division Bar Wrapper Width */
+
+.wrapper {
+	 @include grid-row();
+}
 
 /* Section Stuff */
 
 .row.section-container {
 	background :white;
 	border-bottom: 1px solid #f2f2f2;
+	position: relative;
+	z-index: 99;
+
 }
 
 section h1 {
 	text-align: center;
-	text-transform: uppercase;
 	margin: 20px 0;
+	text-transform: uppercase;
+	//border-bottom: 3px solid #999;
 
 	@media #{$large-up} { 
 		margin: 40px 0;
-		font-size: rem-calc(64);
+		line-height: 1;
+		font-size: rem-calc(52);
 	}
 }
 
@@ -56,6 +75,42 @@ section {
 	}
 }
 
+/* Blur Stuff
 
+/* don't bother enabling blur on oudated browsers */
+.effect {
+	display: none;
+}
+.blur-supported .effect {
+	@media #{$large-up} { 
+		height: 200px;
+		display: block;
+		/*z-index: 1;*/
+		z-index: -99;
+		position: absolute;
+		top: 30%;
+		bottom: 0;
+		left: 1.5%;
+		width: 95%;
+		background-position: 0 105%;
+		background-size: cover;
+		-webkit-filter: blur(80px);
+		-webkit-transform: scaleY(-1);
+	    transform: scaleY(-1);
+	}
+}
+
+.blur-supported .effect.home{
+	-webkit-filter: blur(70px);
+	background-position: 0;
+	background-color: $primary-color;
+
+	@media #{$medium-up}{
+		top: 23%;
+	}
+	@media #{$large-up}{
+
+	}
+}
 
 

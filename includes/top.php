@@ -11,6 +11,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Division</title>
+    <script type="text/javascript" src="//use.typekit.net/ivn3muh.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
     <link rel="stylesheet" href="css/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
