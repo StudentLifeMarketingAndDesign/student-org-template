@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,600,800);
 @import url(../division-bar/css/_division-bar.css);
+@import url(../font/foundation-icons/foundation-icons.css);
 /* Import Foundation, Settings, Division Stuff, other "import"ant things. */
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
@@ -4976,15 +4977,14 @@ header h1 a:active {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 10px solid #60adbd; }
+  border-bottom: 5px solid #60adbd; }
 @media only screen and (min-width: 40.063em) {
   .about-hero {
     padding-top: 300px;
     position: relative;
     z-index: 99;
     background-position: 50% 0;
-    background-size: 900px auto;
-    border-bottom: 35px solid #60adbd; } }
+    background-size: 900px auto; } }
 @media only screen and (min-width: 64.063em) {
   .about-hero {
     padding-top: 500px;
@@ -5017,6 +5017,8 @@ header h1 a:active {
   display: inline;
   text-align: left;
   font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   padding: 0.1em;
   margin-bottom: 0;
   color: white;
@@ -5073,6 +5075,7 @@ header h1 a:active {
   font-family: "Proxima Nova Condensed", "proxima-nova-condensed", sans-serif;
   font-weight: 600;
   letter-spacing: .05em;
+  font-size: 1.25rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   font-style: normal;
@@ -5088,6 +5091,18 @@ header h1 a:active {
 
 .tagline-link:hover {
   background-color: #60adbd; }
+
+#about .news {
+  font-size: 75%; }
+
+.social-media-links ul {
+  text-align: center; }
+
+.social-media-links ul li {
+  display: inline-block;
+  font-size: 3.875rem;
+  text-align: center;
+  padding: 0 0.5rem; }
 
 /* News Section on HomePage */
 @media only screen and (min-width: 64.063em) {
@@ -5175,19 +5190,30 @@ header h1 a:active {
   .article-text.has-image {
     margin-top: -10%; } }
 
-/* News section in the sidebar on individual pages */
-#news-section.sidebar {
+/* News section in the sidebar on individual pages or on homepage */
+#news-list.sidebar-news-list {
   z-index: 999;
   background: white; }
-#news-section.sidebar #news-list h2 {
+#news-list.sidebar-news-list h2 {
   font-size: 1.25rem;
-  margin: 0; }
-#news-section.sidebar #news-list span {
+  margin: 0;
+  line-height: 1; }
+#news-list.sidebar-news-list h3 {
+  font-size: 1.375rem;
+  margin: 0;
+  line-height: 1; }
+#news-list.sidebar-news-list span {
   font-size: 0.75rem; }
-#news-section.sidebar #news-list article {
+#news-list.sidebar-news-list article {
   min-height: 0; }
-#news-section.sidebar #news-list article .cover {
+#news-list.sidebar-news-list article .cover {
   background: none; }
+#news-list.sidebar-news-list .news-image {
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 0 30%; }
 
 .sidebar-news-list {
   display: block;
@@ -5282,30 +5308,25 @@ header h1 a:active {
   color: #333;
   text-decoration: none; }
 
-.row.section-container.latest {
-  box-shadow: 0px 15px 10px -11px rgba(96, 173, 189, 0.1) inset; }
-
-#latest .facebook *, #latest .twitter * {
+#about .facebook *, #about .twitter * {
   width: 100% !important;
+  max-width: 100% !important;
   height: 200px !important;
-  background: #f2f2f2;
   padding: 10px; }
 @media only screen and (min-width: 40.063em) {
-  #latest .facebook *, #latest .twitter * {
+  #about .facebook *, #about .twitter * {
     height: 400px !important; } }
 @media only screen and (min-width: 64.063em) {
-  #latest .facebook *, #latest .twitter * {
-    background: none;
-    padding: 0;
+  #about .facebook *, #about .twitter * {
     height: 600px !important; } }
 @media only screen and (min-width: 40.063em) {
-  #latest .twitter {
+  #about .twitter {
     border-bottom: 0; } }
-#latest .facebook, #latest .twitter {
+#about .facebook, #about .twitter {
   padding-top: 10px;
   padding-bottom: 10px; }
 @media only screen and (min-width: 64.063em) {
-  #latest .facebook, #latest .twitter {
+  #about .facebook, #about .twitter {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none; } }
@@ -5342,12 +5363,13 @@ header h1 a:active {
 
 section h1 {
   text-align: center;
-  text-transform: uppercase;
-  margin: 20px 0; }
+  margin: 20px 0;
+  text-transform: uppercase; }
 @media only screen and (min-width: 64.063em) {
   section h1 {
     margin: 40px 0;
-    font-size: 4rem; } }
+    line-height: 1;
+    font-size: 3.25rem; } }
 
 section {
   margin-top: 20px;

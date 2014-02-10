@@ -1,13 +1,10 @@
 /* About */
-
-
-
 .about-hero {
 	background-color: white;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-bottom: 10px solid $primary-color;
+	border-bottom: 5px solid $primary-color;
 	
 	@media #{$medium-up} { 
 		padding-top: 300px;
@@ -15,7 +12,6 @@
 		z-index: 99;
 		background-position: 50% 0;
 		background-size: 900px auto;
-		border-bottom: 35px solid $primary-color;
 
 	}
 	@media #{$large-up} { 
@@ -57,6 +53,8 @@
 		display: inline;
 		text-align: left;
 		font-size: rem-calc(18);
+		font-weight: 600;
+		letter-spacing: 1px;
 		padding: 0.1em;
 		margin-bottom: 0;
 		color: white;
@@ -101,6 +99,7 @@
 	font-family: "Proxima Nova Condensed", "proxima-nova-condensed", sans-serif;
 	font-weight: 600;
 	letter-spacing: .05em;
+	font-size: rem-calc(20);
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	text-transform: uppercase;
 	font-style: normal;
@@ -113,4 +112,19 @@
 
 .tagline-link:hover{
 	background-color: $primary-color;
+}
+
+
+#about .news{
+	font-size: 75%;
+}
+
+.social-media-links ul {
+	text-align: center;
+}
+.social-media-links ul li{
+	display: inline-block;
+	font-size: rem-calc(62);
+	text-align: center;
+	padding: 0 0.5rem;
 }

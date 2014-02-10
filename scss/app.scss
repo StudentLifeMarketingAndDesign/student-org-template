@@ -5,6 +5,8 @@
 @import "icons";
 @import "grid-simple";
 
+@import "../font/foundation-icons/foundation-icons.css";
+
 /* Import Site Layout Stuff */
 @import "header";
 @import "subnav";
@@ -36,12 +38,14 @@
 
 section h1 {
 	text-align: center;
-	text-transform: uppercase;
 	margin: 20px 0;
+	text-transform: uppercase;
+	//border-bottom: 3px solid #999;
 
 	@media #{$large-up} { 
 		margin: 40px 0;
-		font-size: rem-calc(64);
+		line-height: 1;
+		font-size: rem-calc(52);
 	}
 }
 

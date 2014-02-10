@@ -115,15 +115,22 @@
 	}	
 }
 
-/* News section in the sidebar on individual pages */
+/* News section in the sidebar on individual pages or on homepage */
 
-#news-section.sidebar{
+#news-list.sidebar-news-list{
 	z-index: 999;
 	background: white;
-	#news-list {
+
 		h2 {
 			font-size: rem-calc(20);
 			margin: 0;
+			line-height: 1;
+		}
+
+		h3{
+			font-size: rem-calc(22);
+			margin: 0;
+			line-height: 1;
 		}
 		span{
 			font-size: rem-calc(12);
@@ -137,7 +144,20 @@
 			background: none;
 		}
 
+		.news-image{
+		display: block;
+		height: 80px;
+		overflow: hidden;
+		background-size: cover;
+		background-position: 0 30%;
 
+		@media #{$medium-up} {
+			
+		}
+
+		@media #{$large-up} { 
+			
+		}		
 	}
 }
 
