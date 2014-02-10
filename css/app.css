@@ -5092,6 +5092,11 @@ header h1 a:active {
 
 section#about {
   margin: 0; }
+section#about h2 {
+  text-align: center; }
+@media only screen and (min-width: 40.063em) {
+  section#about h2 {
+    text-align: left; } }
 
 .tagline-link:hover {
   background-color: #60adbd; }

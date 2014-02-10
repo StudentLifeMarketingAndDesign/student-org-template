@@ -113,6 +113,14 @@
 
 section#about {
 	margin: 0;
+
+	h2 {
+		text-align: center;
+
+		@media #{$medium-up} {
+			text-align: left;
+		}
+	}
 }
 .tagline-link:hover{
 	background-color: $primary-color;

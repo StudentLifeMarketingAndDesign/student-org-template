@@ -46,70 +46,81 @@
                             <p><img src="images/about-example.jpg" /></p>
                             </div>
                             <div class="medium-4 columns">
+
+                              <!--* site creators have an option to show FB, Twitter, or site
+                              ***** news posts here. -->
+
+                              <!--*******************-->
+                              <!--***** Facebook ****-->
+                              <!--*******************-->
+
                               <!--<div class="facebook">
                                  <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
                               </div>-->
 
-                            <div class="twitter">
-                              <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
-                          Tweets by @ussailing
-                        </a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                              <!--*******************-->
+                              <!--***** Twitter *****-->
+                              <!--*******************-->
+
+                              <div class="twitter">
+                                <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
+                            Tweets by @ussailing
+                                </a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                              </div>
-                                <!--<ul id="news-list" class="sidebar-news-list small-block-grid-2 large-block-grid-2">
-                                  <li>
-                                    <article>
-                                      <a class="news-image" style="background-image: url('images/news-example6.jpg')"></a>
-                                        <h3><a href="news.php">Are you sailing this weekend? Let us Know!</a></h3><span> Feb 21</span> 
-                                        
-                                    </article>
-                                  </li>
-                                  <li>
-                                    <article> 
-                                      <a class="news-image" style="background-image: url('images/news-example5.jpg')"></a>
-                                        <h3><a href="news.php">Needle Safety "Tip"s</a></h3><span> Feb 21</span>                
-                                    </article>
-                                  </li>
-                                  <li>
-                                    <article>
-                                      <a class="news-image" style="background-image: url('images/news-example4.jpg')"></a>
-                                      <h3><a href="news.php">We are recruiting! Come sail with us!</a></h3><span> Feb 21</span>
-                                    </article>
-                                  </li>
-                                   <li>
-                                    <article>
-                                      <h3><a href="news.php">Best Music to listen to while knitting (and sailing)</a></h3><span> Feb 21</span>
-                                    </article>
-                                  </li>              
-                              </ul>-->
+
+                              <!--*******************-->
+                              <!--***** Posts *******-->
+                              <!--*******************-->
+
+                              <!--<ul id="news-list" class="sidebar-news-list small-block-grid-2 large-block-grid-2">
+                                <li>
+                                  <article>
+                                    <a class="news-image" style="background-image: url('images/news-example6.jpg')"></a>
+                                      <h3><a href="news.php">Are you sailing this weekend? Let us Know!</a></h3><span> Feb 21</span> 
+                                      
+                                  </article>
+                                </li>
+                                <li>
+                                  <article> 
+                                    <a class="news-image" style="background-image: url('images/news-example5.jpg')"></a>
+                                      <h3><a href="news.php">Needle Safety "Tip"s</a></h3><span> Feb 21</span>                
+                                  </article>
+                                </li>
+                                <li>
+                                  <article>
+                                    <a class="news-image" style="background-image: url('images/news-example4.jpg')"></a>
+                                    <h3><a href="news.php">We are recruiting! Come sail with us!</a></h3><span> Feb 21</span>
+                                  </article>
+                                </li>
+                                 <li>
+                                  <article>
+                                    <h3><a href="news.php">Best Music to listen to while knitting (and sailing)</a></h3><span> Feb 21</span>
+                                  </article>
+                                </li>              
+                            </ul>-->
+
+                            <!--*******************-->
                             </div>
                           </div>
                     </div>
-
-                </section>
-               
-
-            </div>
-           <div class="row section-container latest">
-                <section id="latest">
-                  <h1>The Latest</h1>
-                  <div class="large-5 columns facebook">
-                      <!-- the facebook iframe needs to have a URL parameter with 600px as the height -->
-                      <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
-                   </div>
-                     <!-- <div class="large-6 columns twitter">
-                        
-                      </div>-->
-                     
-                      <div class="clearfix"></div>
                 </section>
             </div>
-            <a name="news" class="anchor"></a>
+            <div class="row section-container">
+              <section id="photos">
+                <h1>Photos</h1>
+                <div class="large-11 large-centered columns"> 
+
+                </div>
+
+              </section>
+
+            <!--<a name="news" class="anchor"></a>
             <div class="row section-container" data-magellan-destination="news">
                 <section id="news-section">
                   <h1>News</h1>
                   <div class="large-11 large-centered columns">      
-                  <!--<ul id="news-list" class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+                  <ul id="news-list" class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                     <li>
                       <a class="news-image" style="background-image: url('images/news-example1.jpg')"></a>
                       <article> 
@@ -158,11 +169,11 @@
                        
                       </article>
                     </li>                
-                  </ul>-->
+                  </ul>
                   <hr />
                   <p><a href="#">View News Archive</a></p>
                 </section>
-                </div>
+                </div>-->
               <!--  <section id="news" class="large-12 large-centered columns" data-magellan-destination="news">
                   <h1>News</h1>
 
