@@ -75,10 +75,11 @@
 	}
 
 	@media #{$medium-up} {
-		margin-top: -300px;
+		margin-top: -200px;
 	}
 
 	@media #{$large-up} {
+		margin-top: -300px;
 		padding: 1.3em;
 	}
 	@media #{$xlarge-up} {
@@ -117,6 +118,15 @@
 
 #about .news{
 	font-size: 75%;
+}
+
+section.social-media-links {
+	margin: 0;
+	background: $primary-color;
+
+	a{
+		color: white;
+	}
 }
 
 .social-media-links ul {

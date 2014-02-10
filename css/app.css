@@ -5036,9 +5036,10 @@ header h1 a:active {
   color: #60adbd; }
 @media only screen and (min-width: 40.063em) {
   .tagline {
-    margin-top: -300px; } }
+    margin-top: -200px; } }
 @media only screen and (min-width: 64.063em) {
   .tagline {
+    margin-top: -300px;
     padding: 1.3em; } }
 @media only screen and (min-width: 90.063em) {
   .tagline {
@@ -5094,6 +5095,12 @@ header h1 a:active {
 
 #about .news {
   font-size: 75%; }
+
+section.social-media-links {
+  margin: 0;
+  background: #60adbd; }
+section.social-media-links a {
+  color: white; }
 
 .social-media-links ul {
   text-align: center; }

@@ -28,9 +28,8 @@
                     <li><a href="#" class="fi-social-instagram"></a></li>
                   </ul>
                 </section>
-                <section id="about">
+                <section id="about" data-magellan-destination="about">
                       <div class="large-10 large-centered columns">
-                        <h1 data-magellan-destination="about">About</h1>
            
                           <div class="row">
                             <div class="large-8 columns">
@@ -47,7 +46,6 @@
                             </div>
                             <div class="large-4 columns">
                                <!--<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>-->
-                               <h2>Latest Posts</h2>
                                 <ul id="news-list" class="sidebar-news-list small-block-grid-2 large-block-grid-2">
                                   <li>
                                     <article>
