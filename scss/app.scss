@@ -15,7 +15,24 @@
 @import "footer";
 @import "latest";
 
+h1, h2, h3, h4 h5 {
+	letter-spacing: 1px;
+}
 
+.main .button{
+	text-transform: uppercase;
+	font-family: $header-font-family;
+	font-size: rem-calc(20);
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 0.5em;
+
+	display: block;
+
+	@media #{$medium-up}{
+		display: inline-block;
+	}
+}
 .clearfix {
   @include clearfix;
 }

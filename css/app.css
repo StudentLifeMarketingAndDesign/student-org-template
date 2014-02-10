@@ -5348,6 +5348,21 @@ section.social-media-links {
     padding-bottom: 0;
     border-bottom: none; } }
 
+h1, h2, h3, h4 h5 {
+  letter-spacing: 1px; }
+
+.main .button {
+  text-transform: uppercase;
+  font-family: "proxima-nova-condensed", "Proxima Nova Condensed", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.5em;
+  display: block; }
+@media only screen and (min-width: 40.063em) {
+  .main .button {
+    display: inline-block; } }
+
 .clearfix {
   *zoom: 1; }
 .clearfix:before, .clearfix:after {
