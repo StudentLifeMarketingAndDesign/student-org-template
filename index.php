@@ -32,21 +32,31 @@
                       <div class="large-10 large-centered columns">
            
                           <div class="row">
-                            <div class="large-8 columns">
+                            <div class="medium-8 columns">
                             <h2>30 Years of Sailing</h2>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                            <a href="#" class="button small">Events</a>
 
                             <h2>How to Join</h2>   
                             <ol>
                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                                <li>Aliquam tincidunt mauris eu risus.</li>
                             </ol>
-                            <a href="#" class="button">Sign Up Forms</a>
+                            <a href="#" class="button small">Sign Up Forms</a>
                             <p><img src="images/about-example.jpg" /></p>
                             </div>
-                            <div class="large-4 columns">
-                               <!--<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>-->
-                                <ul id="news-list" class="sidebar-news-list small-block-grid-2 large-block-grid-2">
+                            <div class="medium-4 columns">
+                              <!--<div class="facebook">
+                                 <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
+                              </div>-->
+
+                            <div class="twitter">
+                              <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
+                          Tweets by @ussailing
+                        </a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                             </div>
+                                <!--<ul id="news-list" class="sidebar-news-list small-block-grid-2 large-block-grid-2">
                                   <li>
                                     <article>
                                       <a class="news-image" style="background-image: url('images/news-example6.jpg')"></a>
@@ -71,9 +81,9 @@
                                       <h3><a href="news.php">Best Music to listen to while knitting (and sailing)</a></h3><span> Feb 21</span>
                                     </article>
                                   </li>              
-                              </ul>
+                              </ul>-->
                             </div>
-                          </div>s
+                          </div>
                     </div>
 
                 </section>
@@ -88,10 +98,7 @@
                       <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsailingworld&amp;width&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
                    </div>
                      <!-- <div class="large-6 columns twitter">
-                        <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
-                          Tweets by @ussailing
-                        </a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        
                       </div>-->
                      
                       <div class="clearfix"></div>

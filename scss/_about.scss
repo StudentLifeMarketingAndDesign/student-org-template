@@ -111,30 +111,31 @@
 	}
 }
 
+section#about {
+	margin: 0;
+}
 .tagline-link:hover{
 	background-color: $primary-color;
 }
 
-
-#about .news{
-	font-size: 75%;
-}
-
 section.social-media-links {
 	margin: 0;
-	background: $primary-color;
 
 	a{
-		color: white;
 	}
 }
 
 .social-media-links ul {
 	text-align: center;
+	margin: 0;
 }
 .social-media-links ul li{
 	display: inline-block;
-	font-size: rem-calc(62);
+	font-size: rem-calc(48);
 	text-align: center;
 	padding: 0 0.5rem;
+
+	@media #{$large-up}{
+		font-size: rem-calc(62);
+	}
 }

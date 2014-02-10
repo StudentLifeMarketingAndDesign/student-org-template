@@ -5090,26 +5090,27 @@ header h1 a:active {
   .tagline-link {
     margin-bottom: 0.5em; } }
 
+section#about {
+  margin: 0; }
+
 .tagline-link:hover {
   background-color: #60adbd; }
 
-#about .news {
-  font-size: 75%; }
-
 section.social-media-links {
-  margin: 0;
-  background: #60adbd; }
-section.social-media-links a {
-  color: white; }
+  margin: 0; }
 
 .social-media-links ul {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 .social-media-links ul li {
   display: inline-block;
-  font-size: 3.875rem;
+  font-size: 3rem;
   text-align: center;
   padding: 0 0.5rem; }
+@media only screen and (min-width: 64.063em) {
+  .social-media-links ul li {
+    font-size: 3.875rem; } }
 
 /* News Section on HomePage */
 @media only screen and (min-width: 64.063em) {
