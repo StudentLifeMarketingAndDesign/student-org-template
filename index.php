@@ -30,12 +30,12 @@
                 </section>
                 <section id="about" data-magellan-destination="about">
                       <div class="large-10 large-centered columns">
-           
+                          <h1>30 Years, Still Sailing Strong!</h1>
                           <div class="row">
                             <div class="medium-8 columns">
-                            <h2>30 Years of Sailing</h2>
+                            
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="#" class="button small">Events</a>
+                            <a href="#" class="">See our events</a>
 
                             <h2>How to Join</h2>   
                             <ol>
@@ -43,8 +43,9 @@
                                <li>Aliquam tincidunt mauris eu risus.</li>
                             </ol>
                             <a href="#" class="button small">Sign Up Forms</a>
+                            <hr />
                             <h2>Latest Photos</h2>
- <div class="latest-gallery">
+                            <div class="latest-gallery">
                               <ul data-orbit data-options="animation:slide;
                   animation_speed:400;
                   pause_on_hover:true;
@@ -135,7 +136,15 @@
               <section id="photos">
                 <h1>Photos</h1>
                 <div class="large-11 large-centered columns"> 
-
+                  <ul class="small-block-grid-3 large-block-grid-4">
+                    <li><img src="images/colortest5.jpg" alt="slide 1" /></li>
+                    <li><img src="images/colortest6.jpg" alt="slide 1" /></li>
+                    <li><img src="images/colortest7.gif" alt="slide 1" /></li>
+                    <li><img src="images/colortest8.jpg" alt="slide 1" /></li>
+                    <li><img src="images/colortest9.jpg" alt="slide 1" /></li>
+                    <li><img src="images/colortest10.jpg" alt="slide 1" /></li>
+                    <li>See all galleries</li>
+                  </ul>
                 </div>
 
               </section>
