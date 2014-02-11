@@ -43,10 +43,33 @@
                                <li>Aliquam tincidunt mauris eu risus.</li>
                             </ol>
                             <a href="#" class="button small">Sign Up Forms</a>
-                            <p><img src="images/about-example.jpg" /></p>
+                            <h2>Latest Photos</h2>
+ <div class="latest-gallery">
+                              <ul data-orbit data-options="animation:slide;
+                  animation_speed:400;
+                  pause_on_hover:true;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                  bullets:false;"> 
+                                <li>
+                                  <img src="images/about-example.jpg" alt="slide 1" />
+
+                                </li>
+                                <li>
+                                  <img src="images/about-example.jpg" alt="slide 2" />
+
+                                </li>
+                                <li>
+                                  <img src="images/about-example.jpg" alt="slide 3" />
+
+                                </li>
+                              </ul>
+                              
+                              <p><a href="#">See all photos</a></p>
+                            </div><!-- end latest-gallery -->
                             </div>
                             <div class="medium-4 columns">
-
+                           
                               <!--* site creators have an option to show FB, Twitter, or site
                               ***** news posts here. -->
 
@@ -61,9 +84,9 @@
                               <!--*******************-->
                               <!--***** Twitter *****-->
                               <!--*******************-->
-
+                            
                               <div class="twitter">
-                                <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter transparent">
+                                <a class="twitter-timeline" href="https://twitter.com/ussailing" data-widget-id="401050715197423616" data-chrome="noborders nofooter noheader transparent">
                             Tweets by @ussailing
                                 </a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -101,6 +124,8 @@
                             </ul>-->
 
                             <!--*******************-->
+
+
                             </div>
                           </div>
                     </div>

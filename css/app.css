@@ -5121,6 +5121,9 @@ section.social-media-links {
   .social-media-links ul li {
     font-size: 3.875rem; } }
 
+.latest-gallery .orbit-slide-number, .latest-gallery .orbit-timer {
+  display: none; }
+
 /* News Section on HomePage */
 @media only screen and (min-width: 64.063em) {
   #news-section #news-list {
