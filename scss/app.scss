@@ -11,6 +11,7 @@
 @import "header";
 @import "subnav";
 @import "about";
+@import "photos";
 @import "news";
 @import "footer";
 @import "latest";
@@ -18,6 +19,11 @@
 h1, h2, h3, h4 h5 {
 	letter-spacing: 1px;
 }
+
+h2 {
+	color: #888;
+}
+
 
 .main .button{
 	text-transform: uppercase;
@@ -92,7 +98,74 @@ section {
 	}
 }
 
-/* Blur Stuff
+/* Cover Image in a Block List */
+.cover-image{
+	display: block;
+	height: 120px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: 0 30%;
+
+	@media #{$medium-up} {
+		height: 120px;
+	}
+
+	@media #{$large-up} { 
+		height: 188px;
+	}		
+}
+
+
+/* Sidebar */
+
+
+.sidebar {
+	h2, h3{
+		line-height: 1;
+	}
+	h2 {
+	font-size: rem-calc(22);
+	font-weight: normal;
+	}
+
+	h3{
+	font-size: rem-calc(18);
+	font-weight: normal;
+	}
+
+}
+
+
+.sidebar-list{
+	z-index: 999;
+	background: white;
+
+		span{
+			font-size: rem-calc(12);
+
+		}
+		article{
+			min-height: 0;
+			
+		}
+		article .cover {
+			background: none;
+		}
+
+		.cover-image{
+			height: 80px;
+		}
+}
+
+.sidebar-list{
+  @include block-grid(
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: 1.1em
+
+  );
+}
+/* Blur Stuff */
 
 /* don't bother enabling blur on oudated browsers */
 .effect {

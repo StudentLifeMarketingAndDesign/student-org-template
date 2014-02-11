@@ -57,31 +57,31 @@
 				</div>
 				<div class="large-4 columns">
 
-				<section id="news-section" class="row sidebar">
+				<section id="more-news" class="row sidebar">
 
                   <div class="large-12 columns">
-                  <h3>More News</h3>  
-                  <ul id="news-list" class="sidebar-news-list small-block-grid-1 large-block-grid-2">
+                  <h2>More News</h2>  
+                  <ul id="news-list" class="sidebar-list small-block-grid-1 large-block-grid-2">
                     <li>
                       <article>
                         
-                          <h2><a href="news.php">Are you sailing this weekend? Let us Know!</a></h2><span> Feb 21</span> 
+                          <h3><a href="news.php">Are you sailing this weekend? Let us Know!</a></h3><span> Feb 21</span> 
                           
                       </article>
                     </li>
                     <li>
                       <article> 
-                          <h2><a href="news.php">Needle Safety "Tip"s</a></h2><span> Feb 21</span>                
+                          <h3><a href="news.php">Needle Safety "Tip"s</a></h3><span> Feb 21</span>                
                       </article>
                     </li>
                     <li>
                       <article>
-                      	<h2><a href="news.php">We are recruiting! Come sail with us!</a></h2><span> Feb 21</span>
+                      	<h3><a href="news.php">We are recruiting! Come sail with us!</a></h3><span> Feb 21</span>
                       </article>
                     </li>
                      <li>
                       <article>
-                      	<h2><a href="news.php">Best Music to listen to while knitting (and sailing)</a></h2><span> Feb 21</span>
+                      	<h3><a href="news.php">Best Music to listen to while knitting (and sailing)</a></h3><span> Feb 21</span>
                       </article>
                     </li>              
                   </ul>

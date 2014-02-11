@@ -1,8 +1,12 @@
 /* News Section on HomePage */
-#news-section {
+#news{
+
+	background: $body-bg;
 
 	#news-list {
-		
+		h1, h2, h3 {
+			line-height: 1;
+		}
 		@media #{$large-up} { 
 			position: relative;
 			z-index: 1;
@@ -18,7 +22,7 @@
 		}		
 	}
 
-	.news-image{
+	.cover-image{
 		display: block;
 		height: 120px;
 		overflow: hidden;
@@ -32,18 +36,6 @@
 		@media #{$large-up} { 
 			height: 188px;
 		}		
-	}
-
-	h3{
-		margin: 0.8em 0;
-
-	}
-
-	h2{
-		line-height: 1.1;
-		font-size: rem-calc(26);
-		margin: 0.3em 0;
-		margin-bottom: 0;
 	}
 
 	article {
@@ -115,57 +107,7 @@
 	}	
 }
 
-/* News section in the sidebar on individual pages or on homepage */
-
-#news-list.sidebar-news-list{
-	z-index: 999;
+#more-news {
 	background: white;
-
-		h2 {
-			font-size: rem-calc(20);
-			margin: 0;
-			line-height: 1;
-		}
-
-		h3{
-			font-size: rem-calc(22);
-			margin: 0;
-			line-height: 1;
-		}
-		span{
-			font-size: rem-calc(12);
-
-		}
-		article{
-			min-height: 0;
-			
-		}
-		article .cover {
-			background: none;
-		}
-
-		.news-image{
-		display: block;
-		height: 80px;
-		overflow: hidden;
-		background-size: cover;
-		background-position: 0 30%;
-
-		@media #{$medium-up} {
-			
-		}
-
-		@media #{$large-up} { 
-			
-		}		
-	}
-}
-
-.sidebar-news-list{
-  @include block-grid(
-    // This controls how much space is between each item in the block grid.
-    // Use a variable or any pixel or em values.
-    $spacing: 1.1em
-
-  );
+	padding-top: 1em;
 }

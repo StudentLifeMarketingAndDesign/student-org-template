@@ -1,0 +1,23 @@
+.latest-gallery {
+	.orbit-slide-number, .orbit-timer{display: none;}
+
+}
+
+section#photos {
+
+	.gallery {
+		margin: 1em 0;
+
+		h2{
+			@media #{$large-up}{
+			font-size: rem-calc(16);
+			}
+		}
+
+	}
+
+	.gallery .columns{
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+	}
+}

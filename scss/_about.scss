@@ -111,25 +111,11 @@
 	}
 }
 
-section#about {
-	margin: 0;
-
-	h2 {
-		text-align: center;
-
-		@media #{$medium-up} {
-			text-align: left;
-		}
-	}
-
-	h1{
-		
-	}
-}
 .tagline-link:hover{
 	background-color: $primary-color;
 }
 
+/* Social Media Stuff */
 section.social-media-links {
 	margin: 0;
 
@@ -160,7 +146,49 @@ section.social-media-links {
 	}
 }
 
-.latest-gallery {
-	.orbit-slide-number, .orbit-timer{display: none;}
+/* About Section Below the Hero Stuff */
+
+section#about {
+	h2 {
+		text-align: center;
+
+		@media #{$medium-up} {
+			text-align: left;
+		}
+	}
+	.facebook *, .twitter * {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: 200px !important;
+		background: #eee;
+		padding: 10px; 
+		//box-shadow: 0px 15px 25px -11px rgba($primary-color, .1) inset;
+		@media #{$medium-up} {
+
+			height: 400px !important;
+		}
+		@media #{$large-up} { 
+
+		}
+	}
+
+	.twitter{
+
+		@media #{$medium-up} {
+			border-bottom: 0;
+		}
+	}
+	.facebook, .twitter {
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+
+		@media #{$large-up} { 
+			padding-top: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
 
 }
+
