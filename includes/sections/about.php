@@ -14,7 +14,7 @@
                             
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
                             <a href="#" class="">See our events</a>
-
+                            <hr />
                             <h2>How to Join</h2>   
                             <ol>
                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>

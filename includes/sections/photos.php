@@ -25,7 +25,8 @@
         <h2><a href="gallery.php">Everybody signing up for Fall Sailing!</a></h2>
         <span>Feb 21</span>
         </div><!-- end latest-gallery -->
-      <p><a href="#">See all photos</a></p>
+        <hr />
+      <p><a href="#">See all photos in this gallery</a></p>
     </div>
     <div class="large-4 columns sidebar">
 
@@ -50,8 +51,13 @@
               <div class="medium-7 columns"><img src="images/colortest5.jpg" alt="slide 1" /></div>
               <div class="medium-5 columns"><h2><a href="gallery.php">Fair Day!</a></h2><span>Feb 3</span></div>
           </div>   
+          <div class="row">
+            <div class="large-12 columns">
+              <hr />
+              <p><a href="#">See all photo galleries</a></p>
+            </div>
+          </div>
       </div>                 
-      <p><a href="gallery.php">See all galleries</a></p>
     </div><!-- end large-4 -->
     </div><!-- end row -->
   </div><!-- end large-10 -->

@@ -5145,13 +5145,14 @@ section#about .facebook, section#about .twitter {
   display: none; }
 
 section#photos .gallery {
-  margin: 1em 0; }
+  margin-bottom: 1em; }
 @media only screen and (min-width: 64.063em) {
   section#photos .gallery h2 {
     font-size: 1rem; } }
-section#photos .gallery .columns {
-  padding-left: 0.3rem;
-  padding-right: 0.3rem; }
+@media only screen and (min-width: 64.063em) {
+  section#photos .gallery .columns {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem; } }
 
 /* News Section on HomePage */
 #news {

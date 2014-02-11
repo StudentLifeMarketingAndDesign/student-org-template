@@ -6,7 +6,7 @@
 section#photos {
 
 	.gallery {
-		margin: 1em 0;
+		margin-bottom: 1em;
 
 		h2{
 			@media #{$large-up}{
@@ -17,7 +17,9 @@ section#photos {
 	}
 
 	.gallery .columns{
-		padding-left: 0.3rem;
-		padding-right: 0.3rem;
+		@media #{$large-up}{
+			padding-left: 0.3rem;
+			padding-right: 0.3rem;
+		}
 	}
 }
