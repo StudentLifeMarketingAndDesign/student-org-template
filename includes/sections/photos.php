@@ -46,10 +46,6 @@
           <div class="gallery row">
               <div class="medium-7 columns"><img src="images/colortest4.png" alt="slide 1" /></div>
               <div class="medium-5 columns"><h2><a href="gallery.php">Fun times at the beach</a></h2><span>Feb 3</span></div>
-          </div> 
-          <div class="gallery row">
-              <div class="medium-7 columns"><img src="images/colortest5.jpg" alt="slide 1" /></div>
-              <div class="medium-5 columns"><h2><a href="gallery.php">Fair Day!</a></h2><span>Feb 3</span></div>
           </div>   
           <div class="row">
             <div class="large-12 columns">
