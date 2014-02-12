@@ -5498,6 +5498,8 @@ section {
   line-height: 1;
   margin-bottom: 0;
   font-weight: normal; }
+.block-list h2 {
+  font-size: 2rem; }
 .block-list span {
   color: #9E9E9E;
   line-height: 1; }
