@@ -22,7 +22,6 @@
 
 	border-bottom: 3px solid $secondary-color;
 	/*background: white;*/
-	z-index: 1000;
 
 	@media #{$large-up} { 
 		background: none;
@@ -35,7 +34,6 @@
 		float: right;
 		border: none;
 		display: block;
-		z-index: 999;
 
 	}
 

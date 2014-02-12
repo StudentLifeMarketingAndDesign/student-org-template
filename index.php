@@ -4,7 +4,7 @@
 
 <div class="main" role="main">
 
-  <div class="about-hero"  style=" background-image: url('images/group2.jpg');"  >
+  <div class="hero"  style=" background-image: url('images/group.jpg');"  >
     <div class="tagline-container">
       <div class="row">
         <div class="large-9 large-centered columns tagline">
@@ -21,6 +21,7 @@
   <?php include('includes/sections/about.php') ?>
   <?php include('includes/sections/photos.php') ?>
   <?php include('includes/sections/news.php') ?>
+  <?php include('includes/sections/events.php') ?>
       
 
 </div><!-- end main -->

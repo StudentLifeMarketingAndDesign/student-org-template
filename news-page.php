@@ -1,4 +1,5 @@
 <?php include('includes/top.php'); ?>
+<a name="news" data-magellan-destination="news"></a>
 <?php include('includes/header.php'); ?>
 <?php 
 
@@ -11,7 +12,6 @@
 
 ?>
 
-<a name="news" data-magellan-destination="news"></a>
 <div class="main single-page" role="main">
 	<article class="row">
 		
@@ -20,14 +20,10 @@
 
 		
 			<div class="row">
-				<!-- <div class="article-header" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');"> -->
 				<div class="article-header" style="background-image: url('<?php echo $image; ?>');">
-					<!--<img src="images/news-example<?php echo $randomImage; ?>.jpg" />-->
-					<!--<img src="http://dummyimage.com/200x700/f2f2f2/333333" />-->
 					
 				</div>
 			</div>
-			<!-- <div class="effect" style="background-image: url('images/news-example<?php echo $randomImage; ?>.jpg');"></div> -->
 			<div class="effect" style="background-image: url('<?php echo $image; ?>');"></div>
 			<div class="row article-container">
 			
@@ -38,7 +34,6 @@
 				<div class="large-8 article-text has-image columns">
 	<ul class="breadcrumbs">
 						<li><a href="index.php" class="home">Home</a></li>
-				 		<li><a href="index.php#news">News</a></li>
 				  		<li class="current"><a href="#">Going Sailing This Weekend? Let Us Know!</a></li>
 					</ul>
 

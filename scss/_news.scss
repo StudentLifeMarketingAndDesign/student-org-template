@@ -3,25 +3,6 @@
 
 	background: $body-bg;
 
-	#news-list {
-		h1, h2, h3 {
-			line-height: 1;
-		}
-		@media #{$large-up} { 
-			position: relative;
-			z-index: 1;
-			@include block-grid(
-			    // This controls how much space is between each item in the block grid.
-			    // Use a variable or any pixel or em values.
-			    $spacing: 1.6em
-			);
-		}
-
-		li {
-		
-		}		
-	}
-
 	.cover-image{
 		display: block;
 		height: 120px;
