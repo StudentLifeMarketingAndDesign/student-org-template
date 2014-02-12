@@ -2,7 +2,7 @@
   <section id="events">
     <h1 data-magellan-destination="events">Events</h1>
     <div class="large-12 large-centered columns">      
-    <ul class="small-block-grid-2 large-block-grid-2 block-list">
+    <ul class="small-block-grid-2 large-block-grid-4 block-list">
       <li>
         <a class="cover-image" href="news-page.php" style="background-image: url('images/colortest10.jpg')"></a>
         <article> 
