@@ -33,8 +33,12 @@ section.social-media-links {
 /* About Section Below the Hero Stuff */
 
 section#about {
+	h1{
+		margin-top: 0;
+	}
 	h2 {
 		text-align: center;
+
 
 		@media #{$medium-up} {
 			text-align: left;
@@ -45,18 +49,11 @@ section#about {
 		max-width: 100% !important;
 		height: 230px !important;
 		padding: 10px; 
-		background-image: -webkit-gradient(
-			linear,
-			left top,
-			left bottom,
-			color-stop(0, #FFFFFF),
-			color-stop(1, #F2F2F2)
-		);
-		background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: linear-gradient(to bottom, #FFFFFF 0%, #F2F2F2 100%);
+		background-image: -o-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+		background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+		background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+		background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+		background-image: linear-gradient(to top, #FFFFFF 0%, #F2F2F2 100%);
 		@media #{$medium-up} {
 
 			height: 440px !important;

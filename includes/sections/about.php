@@ -7,10 +7,10 @@
                   </ul>
                 </section>
                 <section id="about">
-                      <div class="large-10 large-centered columns">
+                      <div class="large-12 large-centered columns">
                           <h1>30 Years, Still Sailing Strong!</h1>
                           <div class="row">
-                            <div class="medium-8 columns" data-equalizer-watch>
+                            <div class="medium-7 columns" data-equalizer-watch>
                             
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
                             <a href="#" class="">See our events</a>
@@ -30,7 +30,7 @@
                             
 
                             </div>
-                            <div class="medium-4 columns" data-equalizer-watch>
+                            <div class="medium-5 columns" data-equalizer-watch>
                            
                               <!--* site creators have an option to show FB, Twitter, or site
                               ***** news posts here. -->
