@@ -45,9 +45,9 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 					<img src="images/colortest8.jpg" />
 					<p><a href="index.php#events">Return to events</a></p>
 				</div>
-				<div class="large-4 columns">
+				<div class="large-4 columns sidebar">
 
-					<section class="row sidebar">
+					<section class="row">
 
 						<div class="large-12 columns">
 							<h2>More Events</h2>  
@@ -75,7 +75,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 						</div>
 					</section>
 					<hr />
-					<section class="row sidebar">
+					<section class="row">
 
 						<div class="large-12 columns">
 							<h2>News</h2>  

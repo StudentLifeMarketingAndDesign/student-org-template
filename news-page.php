@@ -51,9 +51,9 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 					</ul>
 					<p><a href="index.php#news">Return to news</a></p>
 				</div>
-				<div class="large-4 columns">
+				<div class="large-4 columns sidebar">
 
-					<section class="row sidebar">
+					<section class="row">
 
 						<div class="large-12 columns">
 							<h2>More News</h2>  
@@ -85,7 +85,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 						</div>
 					</section>
 					<hr />
-					<section class="row sidebar">
+					<section class="row">
 
 						<div class="large-12 columns">
 							<h2>Events</h2>  
@@ -109,7 +109,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 						        </article>
 						      </li>               
 						    </ul>
-							<p class="section-bottom-nav"><a href="index.php#news">Event Archive</a></p>
+							<p><a href="index.php#news">Event Archive</a></p>
 						</div>
 					</section>
 				</div>
