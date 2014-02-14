@@ -1,94 +1,82 @@
 /* News Section on HomePage */
-#news{
-
-	background: $body-bg;
-
-	.cover-image{
-		display: block;
-		height: 120px;
-		overflow: hidden;
-		background-size: cover;
-		background-position: 0 30%;
-
-		@media #{$medium-up} {
-			height: 120px;
-		}
-
-		@media #{$large-up} { 
-			height: 188px;
-		}		
-	}
-
-	article {
-		span {
-			color: #919191;
-			font-size: rem-calc(12);
-		}
-		p{
-			font-size: rem-calc(14);
-		}
-	}
+#news {
+    background: $body-bg;
+    .cover-image {
+        display: block;
+        height: 120px;
+        overflow: hidden;
+        background-size: cover;
+        background-position: 0 30%;
+        @media #{$medium-up} {
+            height: 120px;
+        }
+        @media #{$large-up} {
+            height: 188px;
+        }
+    }
+    article {
+        span {
+            color: #919191;
+            font-size: rem-calc(12);
+        }
+        p {
+            font-size: rem-calc(14);
+        }
+    }
 }
 
 /* Individual News Page */
 
-.article-container{
+.article-container {
     position: relative;
     z-index: 1;
 }
+
 .article-header {
-	height: 140px;
-	background-size: cover;
-	position: relative;
-	z-index: -1;
-
-	@media #{$small-up} {
-		height: 160px;
-		background-position: 0 50%;
-	}
-
-	@media #{$medium-up} {
-		height: 400px;
-		
-	}
-	img {
-	
-		width: 100%;
-	}
-
+    height: 140px;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    @media #{$small-up} {
+        height: 160px;
+        background-position: 0 50%;
+    }
+    @media #{$medium-up} {
+        height: 400px;
+    }
+    img {
+        width: 100%;
+    }
 }
 
-.article-text{
-	h1{
-	    position: relative;
-	    z-index: 999;
-	}
-	span {
-		color: #aaa;
-		font-size: rem-calc(12);
-		display: block;
-		margin: 0.4em 0;
-		border-bottom: $gray;
-		padding-bottom: 0.8em;
-	}
-
+.article-text {
+    h1 {
+        position: relative;
+        z-index: 999;
+    }
+    span {
+        color: #aaa;
+        font-size: rem-calc(12);
+        display: block;
+        margin: 0.4em 0;
+        border-bottom: $gray;
+        padding-bottom: 0.8em;
+    }
 }
 
 .article-text.has-image {
-	background-color: $body-bg;
-	position: relative;
+    background-color: $body-bg;
+    position: relative;
     z-index: 999;
-
-	@media #{$medium-up} { 
-		margin-top: -5%;
-
-	}
-	@media #{$large-up} { 
-		margin-top: -10%;
-	}	
+    @media #{$medium-up} {
+        margin-top: -5%;
+    }
+    @media #{$large-up} {
+        margin-top: -10%;
+    }
 }
 
 #more-news {
-	background: white;
-	padding-top: 1em;
+    background: white;
+    padding-top: 1em;
 }

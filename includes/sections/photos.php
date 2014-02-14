@@ -34,13 +34,13 @@
                         <a class="cover-image fi-thumbnails" href="images/colortest2.jpg" style="background-image: url('images/colortest2.jpg')"><img src="images/colortest2.jpg" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>
                       </li>
                 </ul>
               </li>
@@ -50,29 +50,29 @@
                         <a class="cover-image fi-thumbnails" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>
                       </li>
                 </ul>
             </li>
               <li>
                   <ul class="clearing-thumbs clearing-feature" data-clearing>
                       <li class="clearing-featured-img">
-                        <a class="cover-image fi-thumbnails" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
                       </li>
                       <li>
-                        <a class="cover-image fi-thumbnails" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>
+                        <a class="cover-image" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>
                       </li>
                 </ul>
             </li>
