@@ -31,7 +31,6 @@ $topbar-dropdown-toggle-alpha: 0.4 !default;
 $topbar-link-color: #fff !default;
 $topbar-link-color-hover: #fff !default;
 $topbar-link-color-active: #fff !default;
-$topbar-link-color-active-hover: #fff !default;
 $topbar-link-weight: normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
@@ -39,10 +38,8 @@ $topbar-link-bg-hover: #272727 !default;
 $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
 $topbar-link-font-family: $body-font-family !default;
-$topbar-link-padding: $topbar-height / 3 !default;
 
 $topbar-button-font-size: 0.75rem;
-$topbar-button-top: 7px !default;
 
 $topbar-dropdown-label-color: #777 !default;
 $topbar-dropdown-label-text-transform: uppercase !default;
@@ -170,7 +167,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
             color: $topbar-link-color;
             width: 50%;
             display: block;
-            padding: 0 $topbar-link-padding;
+            padding: 0 $topbar-height / 3;
           }
         }
       }
@@ -188,22 +185,20 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           font-weight: $topbar-menu-link-weight;
           position: relative;
           display: block;
-          padding: 0 $topbar-link-padding;
+          padding: 0 $topbar-height / 3;
           height: $topbar-height;
           line-height: $topbar-height;
         }
 
         // Adding the class "menu-icon" will add the 3-line icon people love and adore.
         &.menu-icon {
-          #{$opposite-direction}: $topbar-link-padding;
+          #{$opposite-direction}: $topbar-height / 3;
           top: 50%;
           margin-top: -16px;
           padding-#{$default-float}: 40px;
 
           a {
-            @if $text-direction == rtl {
-              text-indent: -58px;
-            }
+            // text-indent: -48px;
             height: 34px;
             line-height: 33px;
             padding: 0;
@@ -291,7 +286,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           width: 100%;
           color: $topbar-link-color;
           padding: 12px 0 12px 0;
-          padding-#{$default-float}: $topbar-link-padding;
+          padding-#{$default-float}: $topbar-height / 3;
           font-family: $topbar-link-font-family;
           font-size: $topbar-link-font-size;
           font-weight: $topbar-link-weight;
@@ -300,8 +295,8 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           &.button {
             background: $primary-color;
             font-size: $topbar-link-font-size;
-             padding-#{$opposite-direction}: $topbar-link-padding;
-             padding-#{$default-float}: $topbar-link-padding;
+             padding-#{$opposite-direction}: $topbar-height / 3;
+             padding-#{$default-float}: $topbar-height / 3;
             &:hover {
               background: scale-color($primary-color, $lightness: -27%);
             }
@@ -340,13 +335,12 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           color: $topbar-link-color-active;
           &:hover {
                 background: $topbar-link-bg-active-hover;
-                color: $topbar-link-color-active-hover;
           }
         }
       }
 
       // Add some extra padding for list items contains buttons
-      .has-form { padding: $topbar-link-padding; }
+      .has-form { padding: $topbar-height / 3; }
 
       // Styling for list items that have a dropdown within them.
       .has-dropdown {
@@ -357,7 +351,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
             @if ($topbar-arrows){
               @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), $default-float);
             }
-            margin-#{$opposite-direction}: $topbar-link-padding;
+            margin-#{$opposite-direction}: $topbar-height / 3;
             margin-top: -($topbar-dropdown-toggle-size / 2) - 2;
             position: absolute;
             top: 50%;
@@ -386,7 +380,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
           a {
             font-weight: $topbar-dropdown-link-weight;
-            padding: 8px $topbar-link-padding;
+            padding: 8px $topbar-height / 3;
             &.parent-link {
               font-weight: $topbar-link-weight;
             }
@@ -399,12 +393,12 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
               display: block;
             }
           }
-          &.has-form { padding: 8px $topbar-link-padding; }
+          &.has-form { padding: 8px $topbar-height / 3; }
           .button { top: auto; }
         }
 
         label {
-          padding: 8px $topbar-link-padding 2px;
+          padding: 8px $topbar-height / 3 2px;
           margin-bottom: 0;
           text-transform: $topbar-dropdown-label-text-transform;
           color: $topbar-dropdown-label-color;
@@ -433,7 +427,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
         .button {
           font-size: rem-calc(14);
           position: relative;
-          top: $topbar-button-top;
+          top: 7px;
         }
 
         &.expanded { background: $topbar-bg; }
@@ -469,19 +463,10 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           }
           &:not(.has-form) {
             a:not(.button) {
-              padding: 0 $topbar-link-padding;
+              padding: 0 $topbar-height / 3;
               line-height: $topbar-height;
               background: $topbar-bg;
               &:hover { background: $topbar-link-bg-hover; }
-            }
-          }
-          &.active:not(.has-form) {
-            a:not(.button) {
-              padding: 0 $topbar-height / 3;
-              line-height: $topbar-height;
-              color: $topbar-link-color-active;
-              background: $topbar-link-bg-active;
-              &:hover { background: $topbar-link-bg-active-hover; }
             }
           }
         }
@@ -491,7 +476,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           @if($topbar-arrows){
 
             & > a {
-              padding-#{$opposite-direction}: $topbar-link-padding + 20 !important;
+              padding-#{$opposite-direction}: $topbar-height / 3 + 20 !important;
               &:after {
                 @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), top);
                 margin-top: -($topbar-dropdown-toggle-size / 2);
@@ -537,7 +522,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
               color: $topbar-dropdown-link-color;
               line-height: 1;
               white-space: nowrap;
-              padding: 12px $topbar-link-padding;
+              padding: 12px $topbar-height / 3;
               background: $topbar-dropdown-link-bg;
             }
 
@@ -566,25 +551,25 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
         .has-form {
           background: $topbar-bg;
-          padding: 0 $topbar-link-padding;
+          padding: 0 $topbar-height / 3;
           height: $topbar-height;
         }
 
         // Position overrides for ul.right and ul.left
         .right {
           li .dropdown {
-            #{$default-float}: auto;
-            #{$opposite-direction}: 0;
+            left: auto;
+            right: 0;
 
-            li .dropdown { #{$opposite-direction}: 100%; }
+            li .dropdown { right: 100%; }
           }
         }
         .left {
           li .dropdown {
-            #{$opposite-direction}: auto;
-            #{$default-float}: 0;
+            right: auto;
+            left: 0;
 
-            li .dropdown { #{$default-float}: 100%; }
+            li .dropdown { left: 100%; }
           }
         }
       }

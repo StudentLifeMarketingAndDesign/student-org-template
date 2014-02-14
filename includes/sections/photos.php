@@ -4,7 +4,7 @@
     <div class="row" data-equalizer>
     <h1 data-magellan-destination="photos">Latest Photos</h1>
     <div class="large-8 columns" data-equalizer-watch> 
-      <div class="latest-gallery">
+      <div class="latest-gallery2">
         <ul data-orbit 
         data-options="animation:slide;
           animation_speed:400;
