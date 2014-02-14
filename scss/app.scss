@@ -1,4 +1,6 @@
 /* Import Foundation, Settings, Division Stuff, other "import"ant things. */
+
+
 @import "settings";
 @import "../bower_components/foundation/scss/foundation";
 @import "../division-bar/css/_division-bar.css";
@@ -57,17 +59,18 @@ hr {
 
 .row.section-container {
     background: white;
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
     position: relative;
 }
 
 section h1 {
     text-align: center;
-    margin: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
     text-transform: uppercase;
     //border-bottom: 3px solid #999;
     @media #{$large-up} {
-        margin: 40px 0;
+        margin-bottom: 40px;
         line-height: 1;
         font-size: rem-calc(52);
     }
@@ -84,7 +87,7 @@ section {
 
 .section-bottom-nav {
     text-align: center;
-   margin: 1em;
+    margin-top: 1em;
 }
 
 .anchor {
@@ -151,6 +154,7 @@ section {
     }
     img {
         visibility: hidden;
+        width: 100%;
     }
 }
 
@@ -161,6 +165,8 @@ section {
 /* Sidebar */
 
 .sidebar {
+    background: $body-bg;
+    padding-top: 1em;
     h2, h3 {
         line-height: 1;
     }
@@ -172,27 +178,37 @@ section {
         font-size: rem-calc(18);
         font-weight: normal;
     }
-}
-
-.sidebar-list {
-    background: white;
-    span {
-        font-size: rem-calc(12);
-        color: #9e9e9e;
-    }
-    article {
-        min-height: 0;
-    }
-    article .cover {
-        background: none;
-    }
-    .cover-image {
+    .block-list .cover-image {
         height: 80px;
     }
+
+    .block-list{
+         @include block-grid($spacing: 1.1em);
+        background: white;
+        span {
+            font-size: rem-calc(12);
+            color: #9e9e9e;
+            display: block;
+        }
+        article {
+            min-height: 0;
+        }
+        article .cover {
+            background: none;
+        }
+        .cover-image {
+            height: 80px;
+        }     
+          
+    }
 }
 
 .sidebar-list {
-    @include block-grid($spacing: 1.1em);
+
+}
+
+.sidebar-list {
+   
 }
 
 /* Blur Stuff */

@@ -5361,16 +5361,17 @@ hr {
 /* Section Stuff */
 .row.section-container {
   background: white;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
   position: relative; }
 
 section h1 {
   text-align: center;
-  margin: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
   text-transform: uppercase; }
 @media only screen and (min-width: 64.063em) {
   section h1 {
-    margin: 40px 0;
+    margin-bottom: 40px;
     line-height: 1;
     font-size: 3.25rem; } }
 
@@ -5384,7 +5385,7 @@ section {
 
 .section-bottom-nav {
   text-align: center;
-  margin: 1em; }
+  margin-top: 1em; }
 
 .anchor {
   padding: 10px 0;
@@ -5452,12 +5453,16 @@ section {
   .block-list .cover-image {
     height: 188px; } }
 .block-list .cover-image img {
-  visibility: hidden; }
+  visibility: hidden;
+  width: 100%; }
 
 .block-list .clearing-thumbs li, [data-clearing] li {
   margin-right: 0; }
 
 /* Sidebar */
+.sidebar {
+  background: white;
+  padding-top: 1em; }
 .sidebar h2, .sidebar h3 {
   line-height: 1; }
 .sidebar h2 {
@@ -5466,34 +5471,34 @@ section {
 .sidebar h3 {
   font-size: 1.125rem;
   font-weight: normal; }
-
-.sidebar-list {
-  background: white; }
-.sidebar-list span {
-  font-size: 0.75rem;
-  color: #9e9e9e; }
-.sidebar-list article {
-  min-height: 0; }
-.sidebar-list article .cover {
-  background: none; }
-.sidebar-list .cover-image {
+.sidebar .block-list .cover-image {
   height: 80px; }
-
-.sidebar-list {
+.sidebar .block-list {
   display: block;
   padding: 0;
   margin: 0 0 0 -0.55em;
-  *zoom: 1; }
-.sidebar-list:before, .sidebar-list:after {
+  *zoom: 1;
+  background: white; }
+.sidebar .block-list:before, .sidebar .block-list:after {
   content: " ";
   display: table; }
-.sidebar-list:after {
+.sidebar .block-list:after {
   clear: both; }
-.sidebar-list > li {
+.sidebar .block-list > li {
   display: inline;
   height: auto;
   float: left;
   padding: 0 0.55em 1.1em; }
+.sidebar .block-list span {
+  font-size: 0.75rem;
+  color: #9e9e9e;
+  display: block; }
+.sidebar .block-list article {
+  min-height: 0; }
+.sidebar .block-list article .cover {
+  background: none; }
+.sidebar .block-list .cover-image {
+  height: 80px; }
 
 /* Blur Stuff */
 /* don't bother enabling blur on oudated browsers */

@@ -54,6 +54,8 @@
             </div>
           </div>
           <div class="col-1-4 hide-print">
+            <p>This website was sponsored by UISG and ECGPS.</p>
+            <p>Does your org need a website? Please contact Student Life Marketing &amp; Design for more information</p>
             <h4>Support The Division</h4>
 
             <a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife" class="appt-btn">Give Online Now</a>
