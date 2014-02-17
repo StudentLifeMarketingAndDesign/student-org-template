@@ -32,7 +32,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 					</ul>
 					
 					<h1>Fair Day!</h1>
-					<span>Posted on Feb 21</span>
+					<span>on December 21, 2014 at the Iowa Memorial Union</span>
 
 					
 					<p>Probably the river.</p>

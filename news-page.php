@@ -15,7 +15,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 <div class="main single-page" role="main">
 	<article class="row">
 		
-		<div class="large-11 columns">
+		<div class="large-12 columns">
 
 
 			

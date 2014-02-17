@@ -2,7 +2,7 @@
 header {
 	/*display: none;*/
 	display: block;
-	background: #fff;
+	background: $body-bg;
 	text-align: center;
 	
 	text-transform: uppercase;
@@ -11,10 +11,10 @@ header {
 	}
 
 	h1{
-		a {color: #333;}
+		a {color: lighten($body-font-color, 20);}
 
-		a:hover {color: #333;}
-		a:active {color: #333;}
+		a:hover {color: lighten($body-font-color, 20);}
+		a:active {color: lighten($body-font-color, 20);}
 
 		font-size: rem-calc(22);
 		margin-top: 0.4rem;

@@ -48,7 +48,7 @@
 	font-family: $header-font-family;
 
 	p{
-		background: rgba(#000, 0.2);
+		background: rgba(#000, 0.25);
 		display: inline;
 		text-align: left;
 		font-size: rem-calc(18);
@@ -57,7 +57,7 @@
 		padding: 0.1em;
 		margin-bottom: 0;
 		color: white;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 		@media #{$small-up} {
 			font-size: rem-calc(22);
 		}

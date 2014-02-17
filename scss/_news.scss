@@ -1,5 +1,5 @@
 /* News Section on HomePage */
-#news {
+section#news {
     background: $body-bg;
     .cover-image {
         display: block;
@@ -30,6 +30,7 @@
 .article-container {
     position: relative;
     z-index: 1;
+    background: $body-bg;
 }
 
 .article-header {
@@ -55,7 +56,7 @@
     }
     span {
         color: #aaa;
-        font-size: rem-calc(12);
+        font-size: rem-calc(14);
         display: block;
         margin: 0.4em 0;
         border-bottom: $gray;

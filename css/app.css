@@ -1521,7 +1521,7 @@ select {
   border-style: none;
   border-width: 1px;
   background-color: white;
-  border-color: #e6e6e6;
+  border-color: #f2f2f2;
   -webkit-border-radius: 0;
   border-radius: 0; }
 .breadcrumbs > * {
@@ -1552,7 +1552,7 @@ select {
   cursor: default; }
 .breadcrumbs > *:before {
   content: "\25B8";
-  color: #333333;
+  color: #222222;
   margin: 0 0.75rem;
   position: relative;
   top: 1px; }
@@ -3571,7 +3571,7 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
 .th {
   line-height: 0;
   display: inline-block;
-  border: solid 4px white;
+  border: solid 4px #60adbd;
   max-width: 100%;
   -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
@@ -4041,14 +4041,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "proxima-nova-condensed", "Proxima Nova Condensed", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #3c3c3c;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: gray;
   line-height: 0; }
 
 h1 {
@@ -4071,7 +4071,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: gray;
   font-weight: 300;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -4171,15 +4171,15 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #555555; }
+  color: #686868; }
 blockquote cite:before {
   content: "\2014 \0020"; }
 blockquote cite a, blockquote cite a:visited {
-  color: #555555; }
+  color: #686868; }
 
 blockquote, blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: gray; }
 
 /* Microformats */
 .vcard {
@@ -4830,7 +4830,7 @@ th.hide-for-touch {
 header {
   /*display: none;*/
   display: block;
-  background: #fff;
+  background: white;
   text-align: center;
   text-transform: uppercase; }
 @media only screen and (min-width: 64.063em) {
@@ -4841,11 +4841,11 @@ header h1 {
   margin-top: 0.4rem;
   margin-bottom: 0rem; }
 header h1 a {
-  color: #333; }
+  color: #555555; }
 header h1 a:hover {
-  color: #333; }
+  color: #555555; }
 header h1 a:active {
-  color: #333; }
+  color: #555555; }
 @media only screen and (min-width: 40.063em) {
   header h1 {
     font-size: 2.75rem;
@@ -5010,7 +5010,7 @@ header h1 a:active {
   padding: 0.5em;
   font-family: "proxima-nova-condensed", "Proxima Nova Condensed", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
 .tagline p {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.25);
   display: inline;
   text-align: left;
   font-size: 1.125rem;
@@ -5019,7 +5019,7 @@ header h1 a:active {
   padding: 0.1em;
   margin-bottom: 0;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
 @media only screen {
   .tagline p {
     font-size: 1.375rem; } }
@@ -5148,6 +5148,8 @@ section#photos .latest-gallery {
   margin-bottom: 1em; }
 section#photos .latest-gallery .orbit-slide-number, section#photos .latest-gallery .orbit-timer {
   display: none; }
+section#photos .sidebar {
+  padding: 0; }
 section#photos .sidebar .cover-image {
   height: 130px; }
 
@@ -5191,30 +5193,31 @@ section#photos .sidebar .cover-image {
   background: rgba(0, 0, 0, 0.25); }
 
 /* News Section on HomePage */
-#news {
+section#news {
   background: white; }
-#news .cover-image {
+section#news .cover-image {
   display: block;
   height: 120px;
   overflow: hidden;
   background-size: cover;
   background-position: 0 30%; }
 @media only screen and (min-width: 40.063em) {
-  #news .cover-image {
+  section#news .cover-image {
     height: 120px; } }
 @media only screen and (min-width: 64.063em) {
-  #news .cover-image {
+  section#news .cover-image {
     height: 188px; } }
-#news article span {
+section#news article span {
   color: #919191;
   font-size: 0.75rem; }
-#news article p {
+section#news article p {
   font-size: 0.875rem; }
 
 /* Individual News Page */
 .article-container {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  background: white; }
 
 .article-header {
   height: 140px;
@@ -5235,7 +5238,7 @@ section#photos .sidebar .cover-image {
   position: relative; }
 .article-text span {
   color: #aaa;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   display: block;
   margin: 0.4em 0;
   border-bottom: #f2f2f2;
@@ -5336,7 +5339,7 @@ h1, h2, h3, h4 h5 {
   letter-spacing: 1px; }
 
 h2 {
-  color: #6B6B6B; }
+  color: #555555; }
 
 hr {
   border-color: #f2f2f2; }
@@ -5417,7 +5420,7 @@ section {
   padding-left: 0; }
 .main .breadcrumbs a {
   font-size: 0.875rem;
-  background: #eee;
+  background: #f2f2f2;
   border: #ccc;
   color: #222222;
   margin-bottom: 0; }
@@ -5489,6 +5492,8 @@ section {
 .sidebar h3 {
   font-size: 1.125rem;
   font-weight: normal; }
+.sidebar p {
+  margin: 0; }
 .sidebar .block-list .cover-image {
   height: 80px; }
 .sidebar .block-list {
@@ -5548,6 +5553,7 @@ section {
   .blur-supported .effect.home {
     top: 23%; } }
 
+/* Breadcrumb Nav Button */
 .button.nav, .main .breadcrumbs a.nav {
   background: #ededed;
   color: #60adbd;

@@ -37,12 +37,17 @@
 
 // We use these to control various global styles
 
- $body-bg: white;
-// $body-font-color: #222;
+@import "org";
 
  $body-font-family: "proxima-nova","Proxima Nova", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
  $header-font-family: "proxima-nova-condensed", "Proxima Nova Condensed", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
  $header-font-weight: bold;
+
+ $header-font-color: lighten($body-font-color, 10);
+// $header-line-height: 1.4;
+// $header-top-margin: .2rem;
+// $header-bottom-margin: .5rem;
+// $header-text-rendering: optimizeLegibility;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -54,10 +59,6 @@
 // $opposite-direction: right;
 // $default-float: left;
 
-// We use these as default colors throughout
- $primary-color: #60adbd;
- $secondary-color: #ffce2f;
- $gray: #f2f2f2;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
@@ -181,7 +182,7 @@
 // $include-html-nav-classes: $include-html-classes;
 
 // We use this to set the background color for the breadcrumb container.
- $crumb-bg: white;
+ $crumb-bg: $body-bg;
 
 // We use these to set the padding around the breadcrumbs.
 // $crumb-padding: rem-calc(9 14 9);
@@ -191,19 +192,19 @@
 // $crumb-function-factor: 10%;
  $crumb-border-size: 1px;
  $crumb-border-style: none;
-// $crumb-border-color: darken($crumb-bg, $crumb-function-factor);
+ $crumb-border-color: $gray;
  $crumb-radius: 0;
 
 // We use these to set various text styles for breadcrumbs.
  $crumb-font-size: rem-calc(10);
-// $crumb-font-color: $primary-color;
+ $crumb-font-color: $primary-color;
 // $crumb-font-color-current: #333;
 // $crumb-font-color-unavailable: #999;
 // $crumb-font-transform: uppercase;
 // $crumb-link-decor: underline;
 
 // We use these to control the slash between breadcrumbs
- $crumb-slash-color: #333;
+ $crumb-slash-color: $body-font-color;
  $crumb-slash: "\25B8";
 
 // Button Groups
@@ -897,7 +898,7 @@
 // We use these to control border styles
 // $thumb-border-style: solid;
 // $thumb-border-width: 4px;
-// $thumb-border-color: #fff;
+ $thumb-border-color: $primary-color;
 // $thumb-box-shadow: 0 0 0 1px rgba(#000,.2);
 // $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5);
 

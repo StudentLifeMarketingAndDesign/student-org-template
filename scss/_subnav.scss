@@ -51,7 +51,7 @@
 .sub-nav {
 	padding: 0;
 	text-align: center;
-	background-color: rgba(#FFFFFF, 0.85);
+	background-color: rgba($body-bg, 0.85);
 	@media #{$large-up} { 
 		text-align: left;
 		padding: 10px;
