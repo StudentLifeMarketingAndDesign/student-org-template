@@ -1,6 +1,5 @@
 
 header {
-	/*display: none;*/
 	display: block;
 	background: $body-bg;
 	text-align: center;
@@ -11,11 +10,9 @@ header {
 	}
 
 	h1{
-		a {color: lighten($body-font-color, 20);}
-
+		a {color: $body-font-color}
 		a:hover {color: lighten($body-font-color, 20);}
 		a:active {color: lighten($body-font-color, 20);}
-
 		font-size: rem-calc(22);
 		margin-top: 0.4rem;
 		margin-bottom: 0rem;
@@ -25,13 +22,10 @@ header {
 			margin-top: 0.8rem;
 			margin-bottom: 0.55rem;
 		}
-
 	}
-
 }
 
 /* Mobile Nav Stuff */
-
 .nav-container{
 	border-bottom: 3px solid $secondary-color;
 }

@@ -1,7 +1,7 @@
 <div class="row section-container">
   <section id="news">
-    <h1 data-magellan-destination="news">News</h1>
-    <div class="large-12 large-centered columns">      
+    <div class="large-12 large-centered columns">    
+     <h1 data-magellan-destination="news">News</h1>  
       <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 block-list">
         <li>
           <a class="cover-image" href="news-page.php" style="background-image: url('images/news-example1.jpg')"></a>

@@ -1,8 +1,21 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,600,800);
-@import url(../division-bar/css/_division-bar.css);
 @import url(../font/foundation-icons/foundation-icons.css);
+@import url(../division-bar/css/_division-bar.css);
+/* import one organization stylesheet ONLY */
+/****************/
+/* Dark Options */
+/****************/
+/****************************/
+/*****************/
+/* Light Options */
+/*****************/
+/*********/
+/* Fonts */
+/*********/
+/**************************************************************************/
 /* Import Foundation, Settings, Division Stuff, other "import"ant things. */
+/**************************************************************************/
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0em; }
@@ -1130,8 +1143,8 @@ select {
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
-  background-color: #60adbd;
-  border-color: #489cad;
+  background-color: #b788dd;
+  border-color: #9f61d2;
   color: white; }
 .alert-box .close {
   font-size: 1.375rem;
@@ -1533,7 +1546,7 @@ select {
   text-decoration: underline; }
 .breadcrumbs > * a, .breadcrumbs > * span {
   text-transform: uppercase;
-  color: #60adbd; }
+  color: #b788dd; }
 .breadcrumbs > *.current {
   cursor: default;
   color: #333333; }
@@ -1578,8 +1591,8 @@ button, .button, .main .breadcrumbs a {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #60adbd;
-  border-color: #4391a1;
+  background-color: #b788dd;
+  border-color: #9550cd;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
@@ -1590,7 +1603,7 @@ button, .button, .main .breadcrumbs a {
   border: none;
   font-weight: normal !important; }
 button:hover, button:focus, .button:hover, .main .breadcrumbs a:hover, .button:focus, .main .breadcrumbs a:focus {
-  background-color: #4391a1; }
+  background-color: #9550cd; }
 button:hover, button:focus, .button:hover, .main .breadcrumbs a:hover, .button:focus, .main .breadcrumbs a:focus {
   color: white; }
 button.secondary, .button.secondary, .main .breadcrumbs a.secondary {
@@ -1655,19 +1668,19 @@ button.round, .button.round, .main .breadcrumbs a.round {
   -webkit-border-radius: 1000px;
   border-radius: 1000px; }
 button.disabled, button[disabled], .button.disabled, .main .breadcrumbs a.disabled, .button[disabled], .main .breadcrumbs a[disabled] {
-  background-color: #60adbd;
-  border-color: #4391a1;
+  background-color: #b788dd;
+  border-color: #9550cd;
   color: white;
   cursor: default;
   opacity: 0.7;
   -webkit-box-shadow: none;
   box-shadow: none; }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .main .breadcrumbs a.disabled:hover, .button.disabled:focus, .main .breadcrumbs a.disabled:focus, .button[disabled]:hover, .main .breadcrumbs a[disabled]:hover, .button[disabled]:focus, .main .breadcrumbs a[disabled]:focus {
-  background-color: #4391a1; }
+  background-color: #9550cd; }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .main .breadcrumbs a.disabled:hover, .button.disabled:focus, .main .breadcrumbs a.disabled:focus, .button[disabled]:hover, .main .breadcrumbs a[disabled]:hover, .button[disabled]:focus, .main .breadcrumbs a[disabled]:focus {
   color: white; }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .main .breadcrumbs a.disabled:hover, .button.disabled:focus, .main .breadcrumbs a.disabled:focus, .button[disabled]:hover, .main .breadcrumbs a[disabled]:hover, .button[disabled]:focus, .main .breadcrumbs a[disabled]:focus {
-  background-color: #60adbd; }
+  background-color: #b788dd; }
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .main .breadcrumbs a.disabled.secondary, .button[disabled].secondary, .main .breadcrumbs a[disabled].secondary {
   background-color: #ffce2f;
   border-color: #f2b900;
@@ -2677,8 +2690,8 @@ label.error {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #60adbd;
-  color: white; }
+  background-color: #b788dd;
+  color: #333333; }
 .label.radius {
   -webkit-border-radius: 3px;
   border-radius: 3px; }
@@ -2964,12 +2977,12 @@ ul.pagination li.unavailable a {
 ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
   background: transparent; }
 ul.pagination li.current a {
-  background: #60adbd;
+  background: #b788dd;
   color: white;
   font-weight: bold;
   cursor: default; }
 ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-  background: #60adbd; }
+  background: #b788dd; }
 ul.pagination li {
   float: left;
   display: block; }
@@ -3003,10 +3016,10 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #cfe6eb;
+  border-color: #e1cdf1;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f5fafb; }
+  background: #fbf8fd; }
 .panel.callout > :first-child {
   margin-top: 0; }
 .panel.callout > :last-child {
@@ -3019,7 +3032,7 @@ ul.pagination li {
 .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
   line-height: 1.4; }
 .panel.callout a {
-  color: #60adbd; }
+  color: #b788dd; }
 .panel.radius {
   -webkit-border-radius: 3px;
   border-radius: 3px; }
@@ -3078,7 +3091,7 @@ ul.pagination li {
   padding: 0.125rem;
   margin-bottom: 0.625rem; }
 .progress .meter {
-  background: #60adbd;
+  background: #b788dd;
   height: 100%;
   display: block; }
 .progress.secondary .meter {
@@ -3182,7 +3195,7 @@ ul.pagination li {
   font-size: 0.875rem; }
 .side-nav li a {
   display: block;
-  color: #60adbd; }
+  color: #b788dd; }
 .side-nav li.active > a:first-child {
   color: #4d4d4d;
   font-weight: normal;
@@ -3308,7 +3321,7 @@ ul.pagination li {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   font-weight: normal;
-  background: #60adbd;
+  background: #b788dd;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: white; }
@@ -3571,7 +3584,7 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
 .th {
   line-height: 0;
   display: inline-block;
-  border: solid 4px #60adbd;
+  border: solid 4px white;
   max-width: 100%;
   -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
@@ -3579,8 +3592,8 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
   -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out; }
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(96, 173, 189, 0.5);
-  box-shadow: 0 0 6px 1px rgba(96, 173, 189, 0.5); }
+  -webkit-box-shadow: 0 0 6px 1px rgba(183, 136, 221, 0.5);
+  box-shadow: 0 0 6px 1px rgba(183, 136, 221, 0.5); }
 .th.radius {
   -webkit-border-radius: 3px;
   border-radius: 3px; }
@@ -3592,8 +3605,8 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
   font-weight: bold;
   color: #333333; }
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #26525b;
-  color: #60adbd; }
+  border-bottom: dotted 1px #55247d;
+  color: #b788dd; }
 .has-tip.tip-left, .has-tip.tip-right {
   float: none !important; }
 
@@ -3622,8 +3635,8 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
   border-color: transparent transparent #333333 transparent;
   top: -10px; }
 .tooltip.opened {
-  color: #60adbd !important;
-  border-bottom: dotted 1px #26525b !important; }
+  color: #b788dd !important;
+  border-bottom: dotted 1px #55247d !important; }
 
 .tap-to-close {
   display: block;
@@ -3801,12 +3814,12 @@ meta.foundation-mq-topbar {
   font-weight: normal;
   background: white; }
 .top-bar-section ul li > a.button, .top-bar-section ul .main .breadcrumbs li > a, .main .breadcrumbs .top-bar-section ul li > a {
-  background: #60adbd;
+  background: #b788dd;
   font-size: 0.8125rem;
   padding-right: 15px;
   padding-left: 15px; }
 .top-bar-section ul li > a.button:hover, .top-bar-section ul .main .breadcrumbs li > a:hover, .main .breadcrumbs .top-bar-section ul li > a:hover {
-  background: #3d8493; }
+  background: #8a3dc8; }
 .top-bar-section ul li > a.button.secondary, .top-bar-section ul .main .breadcrumbs li > a.secondary, .main .breadcrumbs .top-bar-section ul li > a.secondary {
   background: #ffce2f; }
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul .main .breadcrumbs li > a.secondary:hover, .main .breadcrumbs .top-bar-section ul li > a.secondary:hover {
@@ -3823,10 +3836,10 @@ meta.foundation-mq-topbar {
   background: #cccccc;
   color: black; }
 .top-bar-section ul li.active > a {
-  background: #60adbd;
+  background: #b788dd;
   color: black; }
 .top-bar-section ul li.active > a:hover {
-  background: #489cad; }
+  background: #9f61d2; }
 .top-bar-section .has-form {
   padding: 15px; }
 .top-bar-section .has-dropdown {
@@ -4001,7 +4014,7 @@ meta.foundation-mq-topbar {
     background: #cccccc;
     color: black; }
   .no-js .top-bar-section ul li:active > a {
-    background: #60adbd;
+    background: #b788dd;
     color: black; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block; } }
@@ -4012,11 +4025,11 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 
 /* Default Link Styles */
 a {
-  color: #60adbd;
+  color: #b788dd;
   text-decoration: none;
   line-height: inherit; }
 a:hover, a:focus {
-  color: #489cad; }
+  color: #9f61d2; }
 a img {
   border: none; }
 
@@ -4045,7 +4058,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  line-height: 1.4; }
+  line-height: 50px; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
   color: gray;
@@ -4205,7 +4218,7 @@ blockquote, blockquote p {
 
 @media only screen and (min-width: 40.063em) {
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4; }
+    line-height: 50px; }
 
   h1 {
     font-size: 2.75rem; }
@@ -4826,9 +4839,8 @@ th.hide-for-touch {
 
   .col-2-3 {
     width: 66.66%; } }
-/* Import Site Layout Stuff */
+/*Layout Stuff */
 header {
-  /*display: none;*/
   display: block;
   background: white;
   text-align: center;
@@ -4841,7 +4853,7 @@ header h1 {
   margin-top: 0.4rem;
   margin-bottom: 0rem; }
 header h1 a {
-  color: #555555; }
+  color: #222222; }
 header h1 a:hover {
   color: #555555; }
 header h1 a:active {
@@ -4871,8 +4883,7 @@ header h1 a:active {
     display: none; } }
 
 .sub-nav-container, .sub-nav-container.fixed {
-  border-bottom: 3px solid #ffce2f;
-  /*background: white;*/ }
+  border-bottom: 3px solid #ffce2f; }
 @media only screen and (min-width: 64.063em) {
   .sub-nav-container, .sub-nav-container.fixed {
     background: none;
@@ -4930,7 +4941,7 @@ header h1 a:active {
     left: 1%;
     width: 7px;
     height: 7px;
-    background: #bbbbbb;
+    background: #d8d8d8;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px; } }
@@ -4963,19 +4974,17 @@ header h1 a:active {
   color: #222222;
   padding-top: 0;
   font-weight: bold;
-  /*padding: 0.1875rem 1rem;*/
   padding: 0 1rem; }
 
 .sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
   background: none; }
 
-/* Hero */
 .hero {
   background-color: white;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 5px solid #60adbd; }
+  border-bottom: 5px solid #b788dd; }
 @media only screen and (min-width: 40.063em) {
   .hero {
     padding-top: 300px;
@@ -4995,9 +5004,7 @@ header h1 a:active {
 .tagline-container {
   position: relative;
   background-size: cover;
-  background-position: 50% 0;
-  /*background-color: rgba($primary-color,1);*/
-  /*box-shadow: 1px 120px 350px 0 rgba($primary-color, 0.4);*/ }
+  background-position: 50% 0; }
 .tagline-container .row {
   border: none; }
 
@@ -5005,12 +5012,10 @@ header h1 a:active {
   border: none; }
 
 .tagline {
-  /*background: white; */
-  /*border-bottom: 1px solid #dfdfdf;*/
   padding: 0.5em;
   font-family: "proxima-nova-condensed", "Proxima Nova Condensed", "Open Sans", "Helvetica", Helvetica, Arial, sans-serif; }
 .tagline p {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.65);
   display: inline;
   text-align: left;
   font-size: 1.125rem;
@@ -5025,15 +5030,16 @@ header h1 a:active {
     font-size: 1.375rem; } }
 @media only screen and (min-width: 40.063em) {
   .tagline p {
+    background: rgba(0, 0, 0, 0.25);
     font-size: 1.75rem; } }
 @media only screen and (min-width: 64.063em) {
   .tagline p {
     font-size: 1.875rem; } }
 .tagline p strong {
-  color: #60adbd; }
+  color: #b788dd; }
 @media only screen and (min-width: 40.063em) {
   .tagline {
-    margin-top: -200px; } }
+    margin-top: -230px; } }
 @media only screen and (min-width: 64.063em) {
   .tagline {
     margin-top: -300px;
@@ -5049,7 +5055,6 @@ header h1 a:active {
     text-align: center; } }
 
 .tagline-link {
-  /*  @include button($padding, $bg, $radius, $full-width, $disabled, $is-input); */
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -5088,7 +5093,7 @@ header h1 a:active {
     margin-bottom: 0.5em; } }
 
 .tagline-link:hover {
-  background-color: #60adbd; }
+  background-color: #b788dd; }
 
 /* Social Media Stuff */
 section.social-media-links {
@@ -5119,6 +5124,17 @@ section#about h2 {
 @media only screen and (min-width: 40.063em) {
   section#about h2 {
     text-align: left; } }
+section#about .block-list h3 {
+  font-size: 1.625rem;
+  margin-top: 0.2em; }
+section#about .block-list .cover-image {
+  height: 80px; }
+@media only screen and (min-width: 40.063em) {
+  section#about .block-list .cover-image {
+    height: 90px; } }
+@media only screen and (min-width: 64.063em) {
+  section#about .block-list .cover-image {
+    height: 100px; } }
 section#about .facebook *, section#about .twitter * {
   width: 100% !important;
   max-width: 100% !important;
@@ -5379,6 +5395,13 @@ hr {
 .wrapper:after {
   clear: both; }
 
+@media only screen and (min-width: 40.063em) {
+  .main {
+    min-height: 700px; } }
+@media only screen and (min-width: 40.063em) {
+  .main {
+    min-height: 900px; } }
+
 /* Section Stuff */
 .row.section-container {
   background: white;
@@ -5388,8 +5411,12 @@ hr {
 section h1 {
   text-align: center;
   margin: 0;
+  margin-top: 40px;
   margin-bottom: 20px;
   text-transform: uppercase; }
+@media only screen and (min-width: 64.063em) {
+  section h1 {
+    margin-top: 0; } }
 @media only screen and (min-width: 64.063em) {
   section h1 {
     margin-bottom: 40px;
@@ -5438,6 +5465,9 @@ section {
   font-weight: normal; }
 .block-list h2 {
   font-size: 2rem; }
+@media only screen and (min-width: 64.063em) {
+  .block-list h2 {
+    margin-top: 0.3em; } }
 .block-list span {
   color: #9E9E9E;
   line-height: 1; }
@@ -5458,6 +5488,12 @@ section {
     height: auto;
     float: left;
     padding: 0 0.5em 1em; } }
+.block-list li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+@media only screen and (min-width: 64.063em) {
+  .block-list li {
+    border: none; } }
 
 /* Cover Image in a Block Grid List */
 .block-list .cover-image {
@@ -5491,7 +5527,8 @@ section {
   font-weight: normal; }
 .sidebar h3 {
   font-size: 1.125rem;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-top: 0; }
 .sidebar p {
   margin: 0; }
 .sidebar .block-list .cover-image {
@@ -5522,6 +5559,9 @@ section {
   background: none; }
 .sidebar .block-list .cover-image {
   height: 80px; }
+.sidebar .block-list li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
 
 /* Blur Stuff */
 /* don't bother enabling blur on oudated browsers */
@@ -5532,7 +5572,6 @@ section {
   .blur-supported .effect {
     height: 200px;
     display: block;
-    /*z-index: 1;*/
     z-index: -99;
     position: absolute;
     top: 30%;
@@ -5548,7 +5587,7 @@ section {
 .blur-supported .effect.home {
   -webkit-filter: blur(70px);
   background-position: 0;
-  background-color: #60adbd; }
+  background-color: #b788dd; }
 @media only screen and (min-width: 40.063em) {
   .blur-supported .effect.home {
     top: 23%; } }
@@ -5556,5 +5595,5 @@ section {
 /* Breadcrumb Nav Button */
 .button.nav, .main .breadcrumbs a.nav {
   background: #ededed;
-  color: #60adbd;
+  color: #b788dd;
   border: 1px solid #ccc; }

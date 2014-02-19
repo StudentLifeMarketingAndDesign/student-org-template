@@ -1,28 +1,54 @@
-/* Import Foundation, Settings, Division Stuff, other "import"ant things. */
+/* import one organization stylesheet ONLY */
+/****************/
+/* Dark Options */
+/****************/
 
+//@import "options/dark/org";
+//@import "options/dark/org2";
+//@import "options/dark/org3";
+//@import "options/dark/org4";
+//@import "options/dark/org5";
+/****************************/
 
-@import "settings";
-@import "../bower_components/foundation/scss/foundation";
-@import "../division-bar/css/_division-bar.css";
-@import "icons";
-@import "grid-simple";
+/*****************/
+/* Light Options */
+/*****************/
 
+//@import "options/light/org";
+//@import "options/light/org2";
+//@import "options/light/org3";
+//@import "options/light/org4";
+@import "options/light/org5";
+
+/*********/
+/* Fonts */
+/*********/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,600,800);
 @import "../font/foundation-icons/foundation-icons.css";
 
-/* Import Site Layout Stuff */
-@import "header";
-@import "subnav";
-@import "hero";
+/**************************************************************************/
+/* Import Foundation, Settings, Division Stuff, other "import"ant things. */
+/**************************************************************************/
 
-@import "about";
-@import "photos";
-@import "news";
+@import "imports/settings";
+@import "../bower_components/foundation/scss/foundation";
+@import "../division-bar/css/_division-bar.css";
+@import "imports/icons";
+@import "imports/grid-simple";
 
-@import "footer";
+/*Layout Stuff */
+@import "imports/header";
+@import "imports/subnav";
+@import "imports/hero";
+
+@import "imports/about";
+@import "imports/photos";
+@import "imports/news";
+
+@import "imports/footer";
 
 h1, h2, h3, h4 h5 {
     letter-spacing: 1px;
-
 }
 
 h2 {
@@ -45,15 +71,21 @@ hr {
         display: inline-block;
     }
 }
-
 .clearfix {
     @include clearfix;
 }
-
 /* Override Division Bar Wrapper Width */
-
 .wrapper {
     @include grid-row;
+}
+
+.main {
+    @media #{$medium-up} {
+        min-height: 700px;
+    }
+    @media #{$medium-up} {
+        min-height: 900px;
+    }
 }
 
 /* Section Stuff */
@@ -67,10 +99,15 @@ hr {
 section h1 {
     text-align: center;
     margin: 0;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-transform: uppercase;
     //border-bottom: 3px solid #999;
     @media #{$large-up} {
+     margin-top: 0;
+    }
+    @media #{$large-up} {
+       
         margin-bottom: 40px;
         line-height: 1;
         font-size: rem-calc(52);
@@ -99,7 +136,7 @@ section {
 
 /* Single Page Styles */
 .main .breadcrumbs {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid $gray;
     display: none;
     padding-left: 0;
     a {
@@ -128,6 +165,9 @@ section {
     }
     h2 {
         font-size: rem-calc(32);
+         @media #{$large-up} {
+            margin-top: 0.3em;
+        }
     }
     span {
         color: #9E9E9E;
@@ -136,6 +176,14 @@ section {
     @media #{$large-up} {
         position: relative;
         @include block-grid($spacing: 1em);
+    }
+    li{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        @media #{$large-up} {
+            border: none;
+        }
+
     }
 }
 
@@ -178,16 +226,16 @@ section {
     h3 {
         font-size: rem-calc(18);
         font-weight: normal;
+        margin-top: 0;
     }
-    p{
+    p {
         margin: 0;
     }
     .block-list .cover-image {
         height: 80px;
     }
-
-    .block-list{
-         @include block-grid($spacing: 1.1em);
+    .block-list {
+        @include block-grid($spacing: 1.1em);
         background: $body-bg;
         span {
             font-size: rem-calc(12);
@@ -202,18 +250,21 @@ section {
         }
         .cover-image {
             height: 80px;
-        }     
-          
+        }
+
+        li{
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            @media #{$large-up} {
+            }
+
+        }
     }
 }
 
-.sidebar-list {
+.sidebar-list {}
 
-}
-
-.sidebar-list {
-   
-}
+.sidebar-list {}
 
 /* Blur Stuff */
 
@@ -226,7 +277,6 @@ section {
     @media #{$large-up} {
         height: 200px;
         display: block;
-        /*z-index: 1;*/
         z-index: -99;
         position: absolute;
         top: 30%;
@@ -240,7 +290,6 @@ section {
         transform: scaleY(-1);
     }
 }
-
 .blur-supported .effect.home {
     -webkit-filter: blur(70px);
     background-position: 0;
@@ -252,7 +301,6 @@ section {
 }
 
 /* Breadcrumb Nav Button */
-
 .button.nav {
     background: #ededed;
     color: $primary-color;

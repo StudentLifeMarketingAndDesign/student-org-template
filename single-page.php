@@ -14,7 +14,7 @@
 				<!-- If the article has an image, add the "has-image" class below:-->
 				<!-- (alternatively, if you remove the has-image class, you get a more traditional image above text) -->
 				<!--<div class="large-8 article-text has-image columns"> -->
-				<div class="large-8 article-text has-image columns">
+				<div class="large-8 article-text columns">
 					<ul class="breadcrumbs">
 						<li><a href="index.php" class="home">Home</a></li>
 						<li><a href="index.php#news" class="home">News</a></li>

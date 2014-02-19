@@ -1,7 +1,7 @@
 <div class="row section-container">
   <section id="events">
-    <h1 data-magellan-destination="events">Events</h1>
-    <div class="large-12 large-centered columns">      
+    <div class="large-12 large-centered columns"> 
+      <h1 data-magellan-destination="events">Events</h1>     
     <ul class="small-block-grid-2 large-block-grid-3 block-list">
       <li>
         <a class="cover-image" href="event-page.php" style="background-image: url('images/colortest10.jpg')"></a>
@@ -22,6 +22,6 @@
         </article>
       </li>               
     </ul>
-    <p class="section-bottom-nav"><a href="news-archive.php">Events Archive</a></p>
+    <p class="section-bottom-nav"><a href="event-archive.php">Event Archive</a></p>
   </section>
 </div><!-- end row section-container -->

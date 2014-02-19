@@ -11,10 +11,7 @@ section#photos {
     .sidebar .cover-image {
         height: 130px;
     }
-    a.th {
-
-    }
-    
+    a.th {}
 }
 
 /* Gallery List on Sidebars and Individual Page */
@@ -27,16 +24,17 @@ section#photos {
         }
     }
 }
+
 #galleries-list .columns {
     @media #{$large-up} {
         padding-left: 0.3rem;
         padding-right: 0.3rem;
     }
 }
+
 #galleries-list .cover-image {
     position: relative;
-
-    h3{
+    h3 {
         color: white;
         text-align: center;
         position: absolute;
@@ -63,6 +61,7 @@ section#photos {
     width: 100%;
     height: 100%;
 }
+
 #galleries-list .cover-image:hover:before {
     background: rgba(black, 0.25);
 }

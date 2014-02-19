@@ -1,0 +1,87 @@
+/* Social Media Stuff */
+section.social-media-links {
+    margin: 0;
+    a {}
+}
+
+.social-media-links ul {
+    text-align: center;
+    margin: 0;
+}
+
+.social-media-links ul li {
+    display: inline-block;
+    font-size: rem-calc(48);
+    text-align: center;
+    padding: 0 0.5rem;
+    a {
+        color: #AAA;
+    }
+    a:hover {
+        color: $secondary-color;
+    }
+    @media #{$large-up} {
+        font-size: rem-calc(62);
+    }
+}
+
+/* About Section Below the Hero Stuff */
+
+section#about {
+    h1 {
+        margin-top: 0;
+    }
+    h2 {
+        text-align: center;
+        @media #{$medium-up} {
+            text-align: left;
+        }
+    }
+
+    .block-list h3 {
+    	font-size: rem-calc(26);
+    	margin-top: 0.2em;
+    }
+
+    .block-list .cover-image{
+    	height: 80px;
+
+	    @media #{$medium-up} {
+	        height: 90px;
+	    }
+	    @media #{$large-up} {
+	        height: 100px;
+	    }
+
+    }
+
+    .facebook *, .twitter * {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 230px !important;
+        padding: 10px;
+        background-image: -o-linear-gradient(top, white 0%, #f2f2f2 100%);
+        background-image: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
+        background-image: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
+        background-image: -ms-linear-gradient(top, white 0%, #f2f2f2 100%);
+        background-image: linear-gradient(to top, white 0%, #f2f2f2 100%);
+        @media #{$medium-up} {
+            height: 440px !important;
+        }
+        @media #{$large-up} {}
+    }
+    .twitter {
+        @media #{$medium-up} {
+            border-bottom: 0;
+        }
+    }
+    .facebook, .twitter {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @media #{$large-up} {
+            padding-top: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+    }
+}
