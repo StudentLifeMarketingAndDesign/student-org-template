@@ -59,7 +59,7 @@
     list-style: none;
     padding: 0;
     margin: 0 0 0.25em;
-    padding-top: 0.7em;
+    //padding-top: 0.7em;
     display: inline-block;
     float: none;
     a {
@@ -126,7 +126,10 @@
     padding: 0 1rem;
     @media #{$large-up} {}
 }
-
+.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
+	color: darken($body-font-color, 10);
+}
 .sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
+	
     background: none;
 }

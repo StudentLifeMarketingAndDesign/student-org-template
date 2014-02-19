@@ -3,7 +3,7 @@
 /* Dark Options */
 /****************/
 
-//@import "options/dark/org";
+@import "options/dark/org";
 //@import "options/dark/org2";
 //@import "options/dark/org3";
 //@import "options/dark/org4";
@@ -18,7 +18,7 @@
 //@import "options/light/org2";
 //@import "options/light/org3";
 //@import "options/light/org4";
-@import "options/light/org5";
+//@import "options/light/org5";
 
 /*********/
 /* Fonts */
@@ -40,12 +40,12 @@
 @import "imports/header";
 @import "imports/subnav";
 @import "imports/hero";
-
 @import "imports/about";
 @import "imports/photos";
 @import "imports/news";
-
 @import "imports/footer";
+
+//@import "imports/_lt-ie9-foundation-grid";
 
 h1, h2, h3, h4 h5 {
     letter-spacing: 1px;
@@ -96,13 +96,16 @@ hr {
     position: relative;
 }
 
+.row.section-container:last-child {
+    border-bottom: none;
+}
+
 section h1 {
     text-align: center;
     margin: 0;
     margin-top: 40px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    //border-bottom: 3px solid #999;
     @media #{$large-up} {
      margin-top: 0;
     }
@@ -134,7 +137,9 @@ section {
     display: block;
 }
 
+
 /* Single Page Styles */
+
 .main .breadcrumbs {
     border-bottom: 1px solid $gray;
     display: none;
@@ -155,6 +160,48 @@ section {
         display: block;
     }
 }
+
+/* Breadcrumb Nav Button */
+.button.nav {
+    background: #ededed;
+    color: $primary-color;
+    border: 1px solid #ccc;
+}
+
+/* Blur Stuff */
+
+/* don't bother enabling blur on unsupported browsers */
+.effect {
+    display: none;
+}
+
+.blur-supported .effect {
+    @media #{$large-up} {
+        height: 200px;
+        display: block;
+        z-index: -99;
+        position: absolute;
+        top: 30%;
+        bottom: 0;
+        left: 1.5%;
+        width: 95%;
+        background-position: 0 105%;
+        background-size: cover;
+        -webkit-filter: blur(80px);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+    }
+}
+.blur-supported .effect.home {
+    -webkit-filter: blur(70px);
+    background-position: 0;
+    background-color: $primary-color;
+    @media #{$medium-up} {
+        top: 23%;
+    }
+    @media #{$large-up} {}
+}
+
 
 /* Block Grid List */
 .block-list {
@@ -262,47 +309,3 @@ section {
     }
 }
 
-.sidebar-list {}
-
-.sidebar-list {}
-
-/* Blur Stuff */
-
-/* don't bother enabling blur on oudated browsers */
-.effect {
-    display: none;
-}
-
-.blur-supported .effect {
-    @media #{$large-up} {
-        height: 200px;
-        display: block;
-        z-index: -99;
-        position: absolute;
-        top: 30%;
-        bottom: 0;
-        left: 1.5%;
-        width: 95%;
-        background-position: 0 105%;
-        background-size: cover;
-        -webkit-filter: blur(80px);
-        -webkit-transform: scaleY(-1);
-        transform: scaleY(-1);
-    }
-}
-.blur-supported .effect.home {
-    -webkit-filter: blur(70px);
-    background-position: 0;
-    background-color: $primary-color;
-    @media #{$medium-up} {
-        top: 23%;
-    }
-    @media #{$large-up} {}
-}
-
-/* Breadcrumb Nav Button */
-.button.nav {
-    background: #ededed;
-    color: $primary-color;
-    border: 1px solid #ccc;
-}

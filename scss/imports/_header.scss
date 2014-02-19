@@ -6,7 +6,7 @@ header {
 	
 	text-transform: uppercase;
 	@media #{$large-up} { 
-		border-bottom: 3px solid $secondary-color;
+		border-bottom: 5px solid $secondary-color;
 	}
 
 	h1{
