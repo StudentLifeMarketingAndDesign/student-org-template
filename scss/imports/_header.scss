@@ -10,7 +10,7 @@ header {
 	}
 
 	h1{
-		a {color: $body-font-color}
+		a {color: lighten($body-font-color,10);}
 		a:hover {color: lighten($body-font-color, 20);}
 		a:active {color: lighten($body-font-color, 20);}
 		font-size: rem-calc(22);
@@ -23,9 +23,4 @@ header {
 			margin-bottom: 0.55rem;
 		}
 	}
-}
-
-/* Mobile Nav Stuff */
-.nav-container{
-	border-bottom: 3px solid $secondary-color;
 }

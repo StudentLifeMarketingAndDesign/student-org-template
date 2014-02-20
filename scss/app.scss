@@ -3,11 +3,8 @@
 /* Dark Options */
 /****************/
 
-@import "options/dark/org";
-//@import "options/dark/org2";
-//@import "options/dark/org3";
-//@import "options/dark/org4";
-//@import "options/dark/org5";
+//@import "options/dark/org";
+
 /****************************/
 
 /*****************/
@@ -19,6 +16,7 @@
 //@import "options/light/org3";
 //@import "options/light/org4";
 //@import "options/light/org5";
+@import "options/light/org6";
 
 /*********/
 /* Fonts */
@@ -125,6 +123,7 @@ section {
         margin-bottom: 40px;
     }
 }
+
 
 .section-bottom-nav {
     text-align: center;

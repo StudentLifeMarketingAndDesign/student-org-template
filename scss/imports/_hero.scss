@@ -3,7 +3,7 @@
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 5px solid $primary-color;
+    border-bottom: 5px solid $secondary-color;
     @media #{$medium-up} {
         padding-top: 300px;
         position: relative;
@@ -63,7 +63,7 @@
         color: $primary-color;
     }
     @media #{$small-up} {
- 
+
     }
     @media #{$medium-up} {
         margin-top: -230px;

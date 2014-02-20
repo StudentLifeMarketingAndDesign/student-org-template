@@ -48,7 +48,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 				<section class="row">
 					<div class="large-12 columns">
 						<h2>More News</h2>
-						<ul id="news-list" class="block-list small-block-grid-1 large-block-grid-2">
+						<ul id="news-list" class="block-list small-block-grid-1 medium-block-grid-2 large-block-grid-2">
 							<li>
 								<article>
 								
@@ -78,7 +78,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 				<section class="row">
 					<div class="large-12 columns">
 						<h2>Events</h2>
-						<ul class="small-block-grid-1 large-block-grid-2 block-list">
+						<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2 block-list">
 							<li>
 								<a class="cover-image" href="event-page.php" style="background-image: url('images/colortest10.jpg')"></a>
 								<article>

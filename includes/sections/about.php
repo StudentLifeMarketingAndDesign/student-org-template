@@ -52,23 +52,24 @@
           <!--*******************-->
           <!--***** Posts *******-->
           <!--*******************-->
+          <h2 class="show-for-small-only">News</h2>
           <ul class="block-list small-block-grid-1 medium-block-grid-1 large-block-grid-2">
             <li>
               <article>
-              <a class="cover-image" style="background-image: url('images/news-example6.jpg')"></a>
+              <a class="cover-image show-for-medium-up" style="background-image: url('images/news-example6.jpg')"></a>
               <h3><a href="news-page.php">Are you sailing this weekend? Let us Know!</a></h3><span> Feb 21</span>
               
               </article>
             </li>
             <li>
               <article>
-              <a class="cover-image" style="background-image: url('images/news-example5.jpg')"></a>
+              <a class="cover-image show-for-medium-up" style="background-image: url('images/news-example5.jpg')"></a>
               <h3><a href="news-page.php">Needle Safety "Tip"s</a></h3><span> Feb 21</span>
               </article>
             </li>
             <li>
               <article>
-              <a class="cover-image" style="background-image: url('images/news-example4.jpg')"></a>
+              <a class="cover-image show-for-medium-up" style="background-image: url('images/news-example4.jpg')"></a>
               <h3><a href="news-page.php">We are recruiting! Come sail with us!</a></h3><span> Feb 21</span>
               </article>
             </li>
