@@ -31,7 +31,7 @@
 	                        <a class="cover-image th" href="images/colortest3.jpg" style="background-image: url('images/colortest3.jpg')"><img src="images/colortest3.jpg" alt="slide 1" /></a>
 	                      </li>
 	                      <li>
-	                        <a class="cover-image th" href="images/colortest4.png" style="background-image: url('images/colortest4.png')"><img src="images/colortest4.png" alt="slide 1" /></a>
+	                        <a class="cover-image th" href="images/colortest4.jpg" style="background-image: url('images/colortest4.jpg')"><img src="images/colortest4.jpg" alt="slide 1" /></a>
 	                      </li>
 	                      <li>
 	                        <a class="cover-image th" href="images/colortest5.jpg" style="background-image: url('images/colortest5.jpg')"><img src="images/colortest5.jpg" alt="slide 1" /></a>

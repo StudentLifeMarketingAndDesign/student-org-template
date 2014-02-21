@@ -7,7 +7,7 @@
 	transition: font-size .3s linear;
 
     padding: 0 10px;
-    padding-top: 11px;
+    //padding-top: 11px;
     @media #{$large-up} {
         height: 0;
         padding-top: 0;
@@ -69,6 +69,8 @@
     //padding-top: 0.7em;
     display: inline-block;
     float: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
     a {
         color: $body-font-color;
     }
@@ -78,10 +80,9 @@
         margin: 0 0 0.25em;
         padding-top: 0.3em;
         line-height: 1.6;
+        padding-left: 0.3rem;
     }
 }
-
-.sub-nav dd {}
 
 .sub-nav dd:before {
     @media #{$large-up} {
@@ -132,15 +133,16 @@
 }
 
 .sub-nav dd a {
-    padding-left: 0;
     padding-top: 10px;
     text-transform: lowercase;
     padding: 0.5rem 0.7rem;
-    @media #{$large-up} {text-transform: lowercase;}
+    @media #{$large-up} {
+        text-transform: lowercase;
+    }
 }
 
 .sub-nav dd.active a {
-    padding-left: 20px 1rem;
+    padding-left: 1rem;
     @media #{$large-up} {}
 }
 
