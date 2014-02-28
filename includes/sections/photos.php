@@ -13,13 +13,16 @@
           navigation_arrows:true;
           bullets:false;"> 
           <li>
-            <a href="images/about-example.jpg"><img src="images/about-example.jpg" alt="slide 1" /></a>
+            <a href="images/examples/about-example.jpg"><img src="images/examples/about-example.jpg" alt="slide 1" /></a>
+            <div class="orbit-caption">Example Caption</div>
           </li>
           <li>
-            <a href="images/about-example.jpg"><img src="images/about-example.jpg" alt="slide 1" /></a>
+            <a href="images/examples/about-example.jpg"><img src="images/examples/about-example.jpg" alt="slide 1" /></a>
+            <div class="orbit-caption">Example Caption</div>
           </li>
           <li>
-            <a href="images/about-example.jpg"><img src="images/about-example.jpg" alt="slide 1" /></a>
+            <a href="images/examples/about-example.jpg"><img src="images/examples/about-example.jpg" alt="slide 1" /></a>
+            <div class="orbit-caption">Example Caption</div>
           </li>
         </ul>
         </div><!-- end latest-gallery -->
@@ -29,13 +32,13 @@
          <div id="galleries-list">
             <ul class="small-block-grid-2 large-block-grid-2 block-list">
               <li>
-                <a class="cover-image fi-thumbnails th" href="gallery.php" style="background-image: url('images/colortest2.jpg')"><h3>Photo Gallery Title</h3><img src="images/colortest2.jpg" alt="slide 1" /></a>
+                <a class="cover-image fi-thumbnails th" href="gallery.php" style="background-image: url('images/examples/colortest2.jpg')"><h3>Photo Gallery Title</h3><img src="images/examples/colortest2.jpg" alt="slide 1" /></a>
               </li>
               <li>
-                <a class="cover-image fi-thumbnails th" href="gallery.php" style="background-image: url('images/colortest2.jpg')"><h3>Photo Gallery Title</h3><img src="images/colortest2.jpg" alt="slide 1" /></a>
+                <a class="cover-image fi-thumbnails th" href="gallery.php" style="background-image: url('images/examples/colortest2.jpg')"><h3>Photo Gallery Title</h3><img src="images/examples/colortest2.jpg" alt="slide 1" /></a>
               </li>
               <li>
-                <a class="cover-image fi-thumbnails th" href="gallery.php" style="background-image: url('images/colortest2.jpg')"><h3>Photo Gallery Title</h3><img src="images/colortest2.jpg" alt="slide 1" /></a>
+                <a class="cover-image fi-thumbnails th" href="gallery.php" style="background-image: url('images/examples/colortest2.jpg')"><h3>Photo Gallery Title</h3><img src="images/examples/colortest2.jpg" alt="slide 1" /></a>
               </li>              
             </ul>
         </div><!-- end galleries-list -->                 

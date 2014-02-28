@@ -3,10 +3,10 @@ section#photos {
         .orbit-slide-number, .orbit-timer {
             display: none;
         }
+        .orbit-container .orbit-slides-container img {
+            width: 100%;
+        }
         margin-bottom: 1em;
-    }
-    .sidebar {
-        padding: 0;
     }
     .sidebar .cover-image {
         height: 130px;

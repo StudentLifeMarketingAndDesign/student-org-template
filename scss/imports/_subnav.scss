@@ -1,27 +1,20 @@
 /* Subnav Stuff */
 
 [data-magellan-expedition] {
-
-	-webkit-transition: font-size .3s linear;
-	-moz-transition: font-size .3s linear;
-	transition: font-size .3s linear;
-
     padding: 0 10px;
-    //padding-top: 11px;
+    z-index: 5;
     @media #{$large-up} {
         height: 0;
         padding-top: 0;
     }
 
 }
-
 .sub-nav-container.fixed>div {
     @media #{$large-up} {
         height: 0;
         display: none;
     }
 }
-
 .sub-nav-container, .sub-nav-container.fixed {
     border-bottom: 5px solid $secondary-color;
     @media #{$large-up} {
@@ -54,7 +47,6 @@
     @media #{$large-up} {
         text-align: left;
         padding: 10px;
-        /*background: white;*/
     }
 }
 
@@ -66,7 +58,6 @@
     list-style: none;
     padding: 0.3em 0;
     margin: 0 0 0.25em;
-    //padding-top: 0.7em;
     display: inline-block;
     float: none;
     margin-top: 5px;
@@ -84,20 +75,6 @@
     }
 }
 
-.sub-nav dd:before {
-    @media #{$large-up} {
-        content: "";
-        position: absolute;
-        top: 47%;
-        left: 1%;
-        width: 7px;
-        height: 7px;
-        background: darken($gray, 10);
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-    }
-}
 .sub-nav dd.active {
 	background: $gray;
 	border-radius: 3px;
@@ -113,6 +90,21 @@
 	@media #{$large-up} {
 		line-height: 1.6;
 	}
+}
+
+.sub-nav dd:before {
+    @media #{$large-up} {
+        content: "";
+        position: absolute;
+        top: 47%;
+        left: 1%;
+        width: 7px;
+        height: 7px;
+        background: darken($gray, 10);
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+    }
 }
 
 .sub-nav dd.active:before {

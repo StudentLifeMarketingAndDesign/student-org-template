@@ -6,7 +6,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 	$image = 'images/'.$image;
 }else{
 	$randomImage = rand(1,6);
-	$image = 'images/news-example'.$randomImage.'.jpg';
+	$image = 'images/examples/news-example'.$randomImage.'.jpg';
 }
 ?>
 <div class="main single-page" role="main">
@@ -36,7 +36,7 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 					<li>An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit?</li>
 					<li>Summus dolor plures dies manere non potest?</li>
 				</ul>
-				<img src="images/colortest8.jpg" />
+				<img src="images/examples/colortest8.jpg" />
 				<p><a href="index.php#events">Return to events</a></p>
 			</div>
 			<div class="large-4 columns sidebar">
@@ -45,19 +45,19 @@ if(isset($_GET['image']) && ($image = $_GET['image'])){
 						<h2>More Events</h2>
 						<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2 block-list">
 							<li>
-								<a class="cover-image" href="event-page.php" style="background-image: url('images/colortest10.jpg')"></a>
+								<a class="cover-image" href="event-page.php" style="background-image: url('images/examples/colortest10.jpg')"></a>
 								<article>
 								<h2><a href="event-page.php">Fair Day!!</a></h2><span>Feb 21 @ 9:30am <br /> Iowa Memorial Union</span>
 								</article>
 							</li>
 							<li>
-								<a class="cover-image" href="event-page.php" style="background-image: url('images/colortest9.jpg')"></a>
+								<a class="cover-image" href="event-page.php" style="background-image: url('images/examples/colortest9.jpg')"></a>
 								<article>
 								<h2><a href="event-page.php">River Rafting</a></h2><span>Feb 21 @ 12:00pm <br /> Iowa River</span>
 								</article>
 							</li>
 							<li>
-								<a class="cover-image" href="event-page.php" style="background-image: url('images/colortest8.jpg')"></a>
+								<a class="cover-image" href="event-page.php" style="background-image: url('images/examples/colortest8.jpg')"></a>
 								<article>
 								<h2><a href="event-page.php">Lake Siesta</a></h2><span>March 3 @ 12:00pm <br /> Lake Macbride</span>
 								</article>

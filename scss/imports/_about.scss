@@ -5,14 +5,16 @@ section.social-media-links {
 }
 
 .social-media-links ul {
-    text-align: center;
     margin: 0;
+    text-align: center;
+    @media #{$medium-up} {
+        text-align: left;
+    }
 }
 
 .social-media-links ul li {
     display: inline-block;
     font-size: rem-calc(48);
-    text-align: center;
     padding: 0 0.5rem;
     a {
         color: #AAA;
@@ -28,10 +30,6 @@ section.social-media-links {
 /* About Section Below the Hero Stuff */
 
 section#about {
-	margin-top: 0;
-    h1 {
-       // margin-top: 0;
-    }
     h2 {
         text-align: center;
         @media #{$medium-up} {

@@ -6,7 +6,16 @@
     <title>Knitting and Sailing Club|The University of Iowa</title>
     <script type="text/javascript" src="//use.typekit.net/ivn3muh.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link rel="stylesheet" href="css/app.css" />
+
+    <?php
+        if(isset($_GET['option'])){
+            $option = $_GET['option'];
+            echo '<link rel="stylesheet" href="css/app_'.$option.'.css" />';          
+        }else{
+            echo '<link rel="stylesheet" href="css/app.css" />';
+        }
+    ?>
+
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>

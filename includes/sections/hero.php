@@ -1,4 +1,4 @@
-  <div class="hero"  style=" background-image: url('images/group.jpg');"  >
+  <div class="hero"  style=" background-image: url('images/examples/group.jpg');"  >
     <div class="tagline-container">
       <div class="row">
         <div class="large-9 large-centered columns tagline">
