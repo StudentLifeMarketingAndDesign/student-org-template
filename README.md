@@ -1,4 +1,4 @@
-Student Org Template
+# Student Org Template
 
 # Intro
 
