@@ -71,6 +71,15 @@
                 </div>
                 <!-- end .division-directory -->
                 <div class="clearfix">
+                <div class="division-search">
+        
+                    <form id="SearchForm_SearchForm" action="/home/SearchForm" method="get" enctype="application/x-www-form-urlencoded">
+                        <label>Search</label>
+                        <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input">
+                        <input type="submit" class="division-search-btn">
+                    </form>
+        
+                </div>    
                     <a href="http://www.uiowa.edu/" class="uiowa">
                         <img src="division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177"></a>
 

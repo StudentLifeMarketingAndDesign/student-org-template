@@ -7,8 +7,6 @@
 //@import "options/light/org4";
 //@import "options/light/org5";
 //@import "options/light/org6";
-
-
 //Import Fonts 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,600,800);
 @import "../font/foundation-icons/foundation-icons.css";
@@ -28,6 +26,34 @@
 @import "imports/photos";
 @import "imports/news";
 @import "imports/footer";
+
+form .division-search-input{
+    margin-left:0;
+    margin-right: 0;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    height: auto;
+    -webkit-appearance: textfield;
+    background: #FFF;
+    border: 1px solid #000;
+    color: #222;
+    display: inline-block;
+    font-size: 13px;
+    font-family: arial, verdana, sans-serif;
+    line-height: normal;
+    padding: 5px 0 4px 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 120px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: width 0.2s ease, background-color 0.2s ease;
+    -moz-transition: width 0.2s ease, background-color 0.2s ease;
+    transition: width 0.2s ease, background-color 0.2s ease;    
+}
+
+
 
 h1, h2, h3, h4 h5 {
     letter-spacing: 1px;
